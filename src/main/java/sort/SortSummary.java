@@ -1,107 +1,106 @@
 package sort;
 
 public class SortSummary {
-    final int MAX=20;
-    int num[]=new int[MAX];
+    final int MAX = 20;
+    int num[] = new int[MAX];
+
     {
         System.out.print("生成的随机数组是：");
-        for(int i=0;i<20;i++){
-            num[i]=(int)(Math.random()*100);
-            System.out.print(num[i]+" ");
+        for (int i = 0; i < 20; i++) {
+            num[i] = (int) (Math.random() * 100);
+            System.out.print(num[i] + " ");
         }
         System.out.println();
     }
 
-    int num2[]=new int[MAX]; //只用于合并排序法中
+    int num2[] = new int[MAX]; //只用于合并排序法中
+
     {
         System.out.print("合并排序法需要使用的数组2是：");
-        for(int i=0;i<20;i++){
-            num2[i]=(int)(Math.random()*100);
-            System.out.print(num2[i]+" ");
+        for (int i = 0; i < 20; i++) {
+            num2[i] = (int) (Math.random() * 100);
+            System.out.print(num2[i] + " ");
         }
         System.out.println();
     }
 
-    int num3[]=new int[MAX+MAX]; //用于存放合并排序法中被合并排序好的数组
+    int num3[] = new int[MAX + MAX]; //用于存放合并排序法中被合并排序好的数组
 
 
-    public SortSummary(){
-        selsort(num.clone());   					//选择排序法
-        insort(num.clone());    					//插入排序法
-        bubsort(num.clone());						//冒泡排序法
-        shellsort(num.clone());						//希尔排序法
-        shakersort(num.clone());					//shake排序法
-        heapsort(num.clone());						//堆排序
-        quicksort_one(num.clone());					//快速排序法（一）
-        quicksort_two(num.clone());					//快速排序法（二）
-        quicksort_three(num.clone());				//快速排序法（三）
-        mergesort(num.clone(),num2.clone(),num3);	//合并排序法
-        basesort(num.clone());						//基数排序法
+    public SortSummary() {
+        selsort(num.clone());                    //选择排序法
+        insort(num.clone());                        //插入排序法
+        bubsort(num.clone());                        //冒泡排序法
+        shellsort(num.clone());                        //希尔排序法
+        shakersort(num.clone());                    //shake排序法
+        heapsort(num.clone());                        //堆排序
+        quicksort_one(num.clone());                    //快速排序法（一）
+        quicksort_two(num.clone());                    //快速排序法（二）
+        quicksort_three(num.clone());                //快速排序法（三）
+        mergesort(num.clone(), num2.clone(), num3);    //合并排序法
+        basesort(num.clone());                        //基数排序法
+        bucketsort(num.clone());
     }
 
-    /*----------------------------选择排序法-------------------------------------------
-           将要排序的对象分作两部份，一个是已排序的，一个是未排序的，从后端未排序部份选择一个最小值，并放入前端已排序部份的最后一个。
-    -------------------------------------------------------------------------------*/
     public void selsort(int number[]) {
         int i, j, k, m, temp;
-        long start,end;
+        long start, end;
 
-        start=System.nanoTime();
-        for(i = 0; i < MAX-1; i++) {
+        start = System.nanoTime();
+        for (i = 0; i < MAX - 1; i++) {
             m = i;
-            for(j = i+1; j < MAX; j++){
-                if(number[j] < number[m]){
+            for (j = i + 1; j < MAX; j++) {
+                if (number[j] < number[m]) {
                     m = j;
                 }
             }
-            if( i != m){
-                temp=number[i];
-                number[i]=number[m];
-                number[m]=temp;
+            if (i != m) {
+                temp = number[i];
+                number[i] = number[m];
+                number[m] = temp;
             }
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
         System.out.println("-----------------选择排序法------------------");
         System.out.print("排序后是:");
-        for(i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
 
     /*-------------------------插入排序法--------------------------------
              像是玩朴克一样，我们将牌分作两堆，每次从后面一堆的牌抽出最前端的牌，然后插入前面一堆牌的适当位置
     -----------------------------------------------------------------*/
-    public void insort(int number[]){
+    public void insort(int number[]) {
         int i, j, k, temp;
-        long start,end;
+        long start, end;
 
-        start=System.nanoTime();
-        for(j = 1; j < MAX; j++) {
+        start = System.nanoTime();
+        for (j = 1; j < MAX; j++) {
             temp = number[j];
             i = j - 1;
-            while(temp < number[i]) {
-                number[i+1] = number[i];
+            while (temp < number[i]) {
+                number[i + 1] = number[i];
                 i--;
-                if(i == -1){
+                if (i == -1) {
                     break;
                 }
             }
-            number[i+1] = temp;
+            number[i + 1] = temp;
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
         System.out.println("-----------------插入排序法------------------");
         System.out.print("排序后是:");
-        for(i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
 
@@ -111,33 +110,32 @@ public class SortSummary {
                    基本的气泡排序法可以利用旗标的方式稍微减少一些比较的时间，当寻访完阵列后都没有发生任何的交换动作，
           表示排序已经完成，而无需再进行之后的回圈比较与交换动作。
     ----------------------------------------------------------------------------------------*/
-    public void bubsort(int number[]){
+    public void bubsort(int number[]) {
         int i, j, k, temp, flag = 1;
-        long start,end;
+        long start, end;
 
-        start=System.nanoTime();
-        for(i = 0; i < MAX-1 && flag == 1; i++) {
+        start = System.nanoTime();
+        for (i = 0; i < MAX - 1 && flag == 1; i++) {
             flag = 0;
-            for(j = 0; j < MAX-i-1; j++) {
-                if(number[j+1] < number[j]) {
-                    temp=number[j+1];
-                    number[j+1]=number[j];
-                    number[j]=temp;
+            for (j = 0; j < MAX - i - 1; j++) {
+                if (number[j + 1] < number[j]) {
+                    temp = number[j + 1];
+                    number[j + 1] = number[j];
+                    number[j] = temp;
                     flag = 1;
                 }
             }
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
         System.out.println("-----------------冒泡排序法------------------");
         System.out.print("排序后是:");
-        for(i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
 
     /*--------------------------shell（希尔）排序法----------------------------
@@ -148,19 +146,19 @@ public class SortSummary {
      ---------------------------------------------------------------------*/
     public void shellsort(int number[]) {
         int i, j, k, gap, temp;
-        long start,end;
+        long start, end;
 
-        start=System.nanoTime();
+        start = System.nanoTime();
         gap = MAX / 2;
-        while(gap > 0) {
-            for(k = 0; k < gap; k++) {
-                for(i = k+gap; i < MAX; i+=gap) {
-                    for(j = i - gap; j >= k; j-=gap) {
-                        if(number[j] > number[j+gap]) {
-                            temp=number[j];
-                            number[j]=number[j+gap];
-                            number[j+gap]=temp;
-                        }else{
+        while (gap > 0) {
+            for (k = 0; k < gap; k++) {
+                for (i = k + gap; i < MAX; i += gap) {
+                    for (j = i - gap; j >= k; j -= gap) {
+                        if (number[j] > number[j + gap]) {
+                            temp = number[j];
+                            number[j] = number[j + gap];
+                            number[j + gap] = temp;
+                        } else {
                             break;
                         }
                     }
@@ -168,17 +166,16 @@ public class SortSummary {
             }
             gap /= 2;
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
         System.out.println("-----------------shell(希尔)排序法（改进的插入排序法）------------------");
         System.out.print("排序后是:");
-        for(i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
 
     /*---------------------Shake排序法（改良的冒泡排序法）--------------------------
@@ -187,44 +184,42 @@ public class SortSummary {
      --------------------------------------------------------------------*/
     public void shakersort(int number[]) {
         int i, temp, left = 0, right = MAX - 1, shift = 0;
-        long start,end;
+        long start, end;
 
-        start=System.nanoTime();
-        while(left < right) {
+        start = System.nanoTime();
+        while (left < right) {
             // 向右進行氣泡排序
-            for(i = left; i < right; i++) {
-                if(number[i] > number[i+1]) {
-                    temp=number[i];
-                    number[i]=number[i+1];
-                    number[i+1]=temp;
+            for (i = left; i < right; i++) {
+                if (number[i] > number[i + 1]) {
+                    temp = number[i];
+                    number[i] = number[i + 1];
+                    number[i + 1] = temp;
                     shift = i;
                 }
             }
             right = shift;
 
             // 向左進行氣泡排序
-            for(i = right; i > left; i--) {
-                if(number[i] < number[i-1]) {
-                    temp=number[i];
-                    number[i]=number[i-1];
-                    number[i-1]=temp;
+            for (i = right; i > left; i--) {
+                if (number[i] < number[i - 1]) {
+                    temp = number[i];
+                    number[i] = number[i - 1];
+                    number[i - 1] = temp;
                     shift = i;
                 }
             }
             left = shift;
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
         System.out.println("-----------------shake排序法（改进的冒泡排序法）------------------");
         System.out.print("排序后是:");
-        for(i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
-
 
 
     /*-----------------------heap排序（堆排序法--改进的选择排序）----------------------------
@@ -233,73 +228,69 @@ public class SortSummary {
      --------------------------------------------------------------------------------*/
     public void heapsort(int number[]) {
         int i, m, p, s, temp;
-        long start,end;
+        long start, end;
 
-        start=System.nanoTime();
-        int number_temp[]=new int[MAX+1];
-        for(int temp_i=1;temp_i<MAX+1;temp_i++){
-            number_temp[temp_i]=number[temp_i-1];
+        start = System.nanoTime();
+        int number_temp[] = new int[MAX + 1];
+        for (int temp_i = 1; temp_i < MAX + 1; temp_i++) {
+            number_temp[temp_i] = number[temp_i - 1];
         }
         createheap(number_temp);
         m = MAX;
-        while(m > 1) {
-            temp=number_temp[1];
-            number_temp[1]=number_temp[m];
-            number_temp[m]=temp;
+        while (m > 1) {
+            temp = number_temp[1];
+            number_temp[1] = number_temp[m];
+            number_temp[m] = temp;
             m--;
             p = 1;
             s = 2 * p;
-            while(s <= m) {
-                if(s < m && number_temp[s+1] > number_temp[s])
+            while (s <= m) {
+                if (s < m && number_temp[s + 1] > number_temp[s])
                     s++;
-                if(number_temp[p] >= number_temp[s])
+                if (number_temp[p] >= number_temp[s])
                     break;
-                temp=number_temp[p];
-                number_temp[p]=number_temp[s];
-                number_temp[s]=temp;
+                temp = number_temp[p];
+                number_temp[p] = number_temp[s];
+                number_temp[s] = temp;
                 p = s;
                 s = 2 * p;
             }
         }
-        for(int temp_j=1;temp_j<MAX+1;temp_j++){
-            number[temp_j-1]=number_temp[temp_j];
+        for (int temp_j = 1; temp_j < MAX + 1; temp_j++) {
+            number[temp_j - 1] = number_temp[temp_j];
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
 
         System.out.println("-----------------heap排序（堆排序法--改进的选择排序）------------------");
         System.out.print("排序后是:");
-        for(i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
     //将原数组构造为从下标1开始的一个新数组，便于处理，同时将这个新数组构造为最初始的堆积树结构
     public void createheap(int number[]) {
         int i, s, p, temp;
-        int heap[] = new int[MAX+1];
-        for(i = 1; i <= MAX; i++) {
+        int heap[] = new int[MAX + 1];
+        for (i = 1; i <= MAX; i++) {
             heap[i] = number[i];
             s = i;
             p = i / 2;
-            while(s >= 2 && heap[p] < heap[s]) {
-                temp=heap[p];
-                heap[p]=heap[s];
-                heap[s]=temp;
+            while (s >= 2 && heap[p] < heap[s]) {
+                temp = heap[p];
+                heap[p] = heap[s];
+                heap[s] = temp;
                 s = p;
                 p = s / 2;
             }
         }
-        for(i = 1; i <= MAX; i++){
+        for (i = 1; i <= MAX; i++) {
             number[i] = heap[i];
         }
     }
-
-
-
-
 
 
     /*-----------------------快速排序法（一）---------------------------------------------
@@ -313,49 +304,48 @@ public class SortSummary {
      对轴左边进行递回
      对轴右边进行递回
      --------------------------------------------------------------------------------*/
-    public void quicksort_one(int number[]){
-        long start,end;
+    public void quicksort_one(int number[]) {
+        long start, end;
 
-        start=System.nanoTime();
-        quicksort_1(number,0,MAX-1);
-        end=System.nanoTime();
+        start = System.nanoTime();
+        quicksort_1(number, 0, MAX - 1);
+        end = System.nanoTime();
 
         System.out.println("-----------------快速排序法（ 一 ）------------------");
         System.out.print("排序后是:");
-        for(int i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (int i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
 
 
     }
 
 
-    public void quicksort_1(int number[],int left,int right) {
+    public void quicksort_1(int number[], int left, int right) {
         int i, j, s, temp;
-        if(left < right) {
+        if (left < right) {
             s = number[left];
             i = left;
             j = right + 1;
-            while(true) {
+            while (true) {
                 // 向右找
-                while(i + 1 < number.length && number[++i] < s) ;
+                while (i + 1 < number.length && number[++i] < s) ;
                 // 向左找
-                while(j -1 > -1 && number[--j] > s) ;
-                if(i >= j)
+                while (j - 1 > -1 && number[--j] > s) ;
+                if (i >= j)
                     break;
-                temp=number[i];
-                number[i]=number[j];
-                number[j]=temp;
+                temp = number[i];
+                number[i] = number[j];
+                number[j] = temp;
             }
             number[left] = number[j];
             number[j] = s;
-            quicksort_1(number, left, j-1); // 对左边进行递回
-            quicksort_1(number, j+1, right); // 对右边进行递回
+            quicksort_1(number, left, j - 1); // 对左边进行递回
+            quicksort_1(number, j + 1, right); // 对右边进行递回
         }
     }
-
 
 
     /*-----------------------快速排序法（二）---------------------------------------------
@@ -371,44 +361,42 @@ public class SortSummary {
     [41 24 36 11 19 21] [64 69 45 76]
      完成以上之后，再初别对左边括号与右边括号的部份进行递回，如此就可以完成排序的目的。
     --------------------------------------------------------------------------------*/
-    public void quicksort_two(int number[]){
-        long start,end;
+    public void quicksort_two(int number[]) {
+        long start, end;
 
-        start=System.nanoTime();
-        quicksort_2(number,0,MAX-1);
-        end=System.nanoTime();
+        start = System.nanoTime();
+        quicksort_2(number, 0, MAX - 1);
+        end = System.nanoTime();
 
         System.out.println("-----------------快速排序法（ 二 ）------------------");
         System.out.print("排序后是:");
-        for(int i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (int i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
 
     public void quicksort_2(int number[], int left, int right) {
         int i, j, s, temp;
-        if(left < right) {
-            s = number[(left+right)/2];
+        if (left < right) {
+            s = number[(left + right) / 2];
             i = left - 1;
             j = right + 1;
-            while(true) {
-                while(number[++i] < s) ; // 向右找
-                while(number[--j] > s) ; // 向左找
-                if(i >= j)
+            while (true) {
+                while (number[++i] < s) ; // 向右找
+                while (number[--j] > s) ; // 向左找
+                if (i >= j)
                     break;
-                temp=number[i];
-                number[i]=number[j];
-                number[j]=temp;
+                temp = number[i];
+                number[i] = number[j];
+                number[j] = temp;
             }
-            quicksort_2(number, left, i-1); // 对左边进行递回
-            quicksort_2(number, j+1, right); // 对右边进行递回
+            quicksort_2(number, left, i - 1); // 对左边进行递回
+            quicksort_2(number, j + 1, right); // 对右边进行递回
         }
     }
-
-
 
 
     /*-----------------------快速排序法（三）---------------------------------------------
@@ -425,20 +413,20 @@ public class SortSummary {
             小于s				大于s
      然后采用递归的方法重复上面的步骤，就可以实现排序了。
     --------------------------------------------------------------------------------*/
-    public void quicksort_three(int number[]){
-        long start,end;
+    public void quicksort_three(int number[]) {
+        long start, end;
 
-        start=System.nanoTime();
-        quicksort_3(number,0,MAX-1);
-        end=System.nanoTime();
+        start = System.nanoTime();
+        quicksort_3(number, 0, MAX - 1);
+        end = System.nanoTime();
 
         System.out.println("-----------------快速排序法（ 三 ）------------------");
         System.out.print("排序后是:");
-        for(int i=0;i<=MAX-1;i++){
-            System.out.print(number[i]+" ");
+        for (int i = 0; i <= MAX - 1; i++) {
+            System.out.print(number[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
 
     }
 
@@ -447,26 +435,26 @@ public class SortSummary {
         int i, j, s, temp;
         s = number[right];
         i = left - 1;
-        for(j = left; j < right; j++) {
-            if(number[j] <= s) {
+        for (j = left; j < right; j++) {
+            if (number[j] <= s) {
                 i++;
-                temp=number[i];
-                number[i]=number[j];
-                number[j]=temp;
+                temp = number[i];
+                number[i] = number[j];
+                number[j] = temp;
             }
         }
-        temp=number[i+1];
-        number[i+1]=number[right];
-        number[right]=temp;
-        return i+1;
+        temp = number[i + 1];
+        number[i + 1] = number[right];
+        number[right] = temp;
+        return i + 1;
     }
 
     public void quicksort_3(int number[], int left, int right) {
         int q;
-        if(left < right) {
+        if (left < right) {
             q = partition(number, left, right);
-            quicksort_3(number, left, q-1);
-            quicksort_3(number, q+1, right);
+            quicksort_3(number, left, q - 1);
+            quicksort_3(number, q + 1, right);
         }
     }
    
@@ -480,43 +468,41 @@ public class SortSummary {
              合并排序法中用到了  快速排序法（三）
    --------------------------------------------------------------------------------*/
 
-    public void mergesort(int number1[],int number2[],int number3[]){
-        long start,end;
+    public void mergesort(int number1[], int number2[], int number3[]) {
+        long start, end;
 
-        start=System.nanoTime();
-        quicksort_3(number1,0,MAX-1);
-        quicksort_3(number2,0,MAX-1);
-        mergesort_merge(number1,MAX,number2,MAX,number3);
-        end=System.nanoTime();
+        start = System.nanoTime();
+        quicksort_3(number1, 0, MAX - 1);
+        quicksort_3(number2, 0, MAX - 1);
+        mergesort_merge(number1, MAX, number2, MAX, number3);
+        end = System.nanoTime();
 
         System.out.println("-----------------合并排序法------------------");
         System.out.print("排序后是:");
-        for(int i=0;i<=MAX+MAX-1;i++){
-            System.out.print(number3[i]+" ");
+        for (int i = 0; i <= MAX + MAX - 1; i++) {
+            System.out.print(number3[i] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
 
     public void mergesort_merge(int number1[], int M, int number2[], int N, int number3[]) {
         int i = 0, j = 0, k = 0;
-        while(i < M && j < N) {
-            if(number1[i] <= number2[j]){
+        while (i < M && j < N) {
+            if (number1[i] <= number2[j]) {
                 number3[k++] = number1[i++];
-            }else{
+            } else {
                 number3[k++] = number2[j++];
             }
         }
-        while(i < M){
+        while (i < M) {
             number3[k++] = number1[i++];
         }
-        while(j < N){
+        while (j < N) {
             number3[k++] = number2[j++];
         }
     }
-
-
 
 
     /*-----------------------基数排序法---------------------------------------------
@@ -543,26 +529,26 @@ public class SortSummary {
      LSD的基数排序适用于位数小的数列，如果位数多的话，使用MSD的效率会比较好，MSD的方
      式恰与LSD相反，是由高位数为基底开始进行分配，其他的演算方式则都相同。
     --------------------------------------------------------------------------------*/
-    public void basesort(int number[]){
+    public void basesort(int number[]) {
         int temp[][] = new int[MAX][MAX];
         int order[] = new int[MAX];
         int i, j, k, n, lsd;
-        long start,end;
+        long start, end;
         k = 0;
         n = 1;
 
 
-        start=System.nanoTime();
-        while(n <= 10) {
-            for(i = 0; i < MAX; i++) {
+        start = System.nanoTime();
+        while (n <= 10) {
+            for (i = 0; i < MAX; i++) {
                 lsd = ((number[i] / n) % 10);
                 temp[lsd][order[lsd]] = number[i];
                 order[lsd]++;
             }
             //重新排列
-            for(i = 0; i < MAX; i++) {
-                if(order[i] != 0)
-                    for(j = 0; j < order[i]; j++) {
+            for (i = 0; i < MAX; i++) {
+                if (order[i] != 0)
+                    for (j = 0; j < order[i]; j++) {
                         number[k] = temp[i][j];
                         k++;
                     }
@@ -571,19 +557,44 @@ public class SortSummary {
             n *= 10;
             k = 0;
         }
-        end=System.nanoTime();
+        end = System.nanoTime();
 
         System.out.println("-----------------基数排序法------------------");
         System.out.print("排序后是:");
-        for(int ii=0;ii<=MAX-1;ii++){
-            System.out.print(number[ii]+" ");
+        for (int ii = 0; ii <= MAX - 1; ii++) {
+            System.out.print(number[ii] + " ");
         }
         System.out.println();
-        System.out.println("排序使用时间："+(end-start)+" ns");
+        System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
+    /*----------------------------桶排序法-------------------------------------------
+              最快的排序方法,也是最耗空间的
+       -------------------------------------------------------------------------------*/
+    public void bucketsort(int number[]) {
+        long start, end;
+        start = System.nanoTime();
+        //先初始化最大数个数的数组
+        int[] sorted = new int[100 + 1];
+        for (int i = 0; i < number.length; i++) {
+            sorted[number[i]] = sorted[number[i]] + 1;
+        }
+        end = System.nanoTime();
+        System.out.println("-----------------桶排序法------------------");
+        System.out.print("排序后是:");
+        for(int i=0;i<sorted.length;i++){
+            if(sorted[i]!=0){
+                do{
+                    System.out.print(i + " ");
+                    sorted[i]--;
+                }while (sorted[i]>0);
+            }
+        }
+        System.out.println();
+        System.out.println("排序使用时间：" + (end - start) + " ns");
+    }
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         System.out.println("以下的测试时间仅供参考...");
         new SortSummary();
     }

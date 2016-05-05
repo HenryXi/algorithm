@@ -1,4 +1,4 @@
-package sort;
+package com.henryxi.algorithm.sort;
 
 public class SortSummary {
     final int MAX = 20;

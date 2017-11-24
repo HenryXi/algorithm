@@ -1,4 +1,4 @@
-package sort;
+package com.henryxi.algorithm.sort.exercise;
 
 import java.util.Arrays;
 

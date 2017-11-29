@@ -6,7 +6,7 @@ public class LinkedList {
     public Node head;
     public Node current;
 
-    public void add(int data) {
+    private void add(int data) {
         if (head == null) {
             head = new Node(data);
             current = head;
@@ -22,21 +22,6 @@ public class LinkedList {
             this.add(random.nextInt(100));
         }
         return head;
-    }
-
-    public int length(Node head) {
-        if (head == null) {
-            return -1;
-        }
-
-        int length = 0;
-        current = head;
-        while (current != null) {
-            length++;
-            current = current.next;
-        }
-
-        return length;
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.henryxi.algorithm.linkedlist;
+package com.henryxi.algorithm.linkedlist.findcycle;
 
 import java.util.List;
 

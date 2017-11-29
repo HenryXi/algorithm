@@ -1,4 +1,5 @@
-algorithm
-===
-this project is code come from <i>Introduction to Algorithms</i>, about this book you can find [here](http://book.douban.com/subject/1885170/).
-I use java realize algorithm in every chapter.
+# Java algorithm tutorial
+This series of blog describes common algorithms.
+
+* [Java quick sort example](http://www.henryxi.com/java-quick-sort-example)
+* [Java binary search example](http://www.henryxi.com/java-binary-search-example)

@@ -7,7 +7,7 @@ Answer is here:
 * use two pointer, first pointer go n step
 * second pointer and first one both iterate the list until first pointer point to null.
 
-**code**
+**sample code**
 ```java
 public class Node {
     public int data;

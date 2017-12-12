@@ -1,5 +1,8 @@
 package com.henryxi.algorithm.queue;
 
+/**
+ * http://blog.csdn.net/xiuweikang/article/details/40400639
+ */
 public class ArrayQueue {
     private int[] arrInt;
     private int front;

@@ -63,6 +63,6 @@ public class ReverseClient {
 **Summary**
 
 The most important point is find the "pre", "current" and "next" node. Make next pointer of "current" node to
-"pre" node and move them to next step. Do not forget make the "next" pointer of head as null in the end.
+"pre" node and move them to next step. Do not forget make the next pointer of head as null in the end.
 
 EOF

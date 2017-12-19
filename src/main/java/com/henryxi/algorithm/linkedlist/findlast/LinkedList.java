@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class LinkedList {
     public Node head;
-    public Node current;
+    private Node current;
 
     private void add(int data) {
         if (head == null) {

@@ -54,7 +54,7 @@ public class FibonacciByLoopClient {
 
 **Summary**
 
-Get nth Fibonacci number in loop is not very difficult. Define `b` as preview number and `a` as the preview of
-`b` and `c` the nth Fibonacci. After every loop moving `a` and `b` to next number.
+Get nth Fibonacci number in loop is not very difficult. Define `b` as preview number, `a` as the preview of
+`b` and `c` as the nth Fibonacci. After every loop moving `a` and `b` to next number.
 
 EOF

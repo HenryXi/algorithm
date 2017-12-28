@@ -5,3 +5,4 @@ This series of blog describes common algorithms.
 * [Java binary search example](http://www.henryxi.com/java-binary-search-example)
 * [Java find n'th node from the end of linked list](http://www.henryxi.com/java-find-nth-node-from-the-end-of-linked-list)
 * [Java reversing single linked list](http://www.henryxi.com/java-reversing-single-linked-list)
+* [Java find nth Fibonacci number example](http://www.henryxi.com/java-find-nth-fibonacci-number-example)

@@ -3,13 +3,13 @@ package com.henryxi.algorithm.queue;
 /**
  * http://blog.csdn.net/xiuweikang/article/details/40400639
  */
-public class ArrayQueue {
-    private int[] arrInt;
+public class ArrayQueue<T> {
+    private T[] arrInt;
     private int front;
     private int rear;
 
     public ArrayQueue(int size) {
-        this.arrInt = new int[size];
+        this.arrInt = (T[]) new Object[size];
         front = 0;
         rear = -1;
     }
@@ -22,39 +22,25 @@ public class ArrayQueue {
         return arrInt.length - 1 == rear;
     }
 
-    public void insert(int item) {
+    public void insert(T item) {
         if (isFull()) {
-            throw new RuntimeException("队列已满");
+            throw new RuntimeException("queue full!");
         }
         arrInt[++rear] = item;
     }
 
-    public int peekFront() {
+    public T peekFront() {
         return arrInt[front];
     }
 
-    public int peekRear() {
+    public T peekRear() {
         return arrInt[rear];
     }
 
-    public int remove() {
+    public T remove() {
         if (isEmpty()) {
-            throw new RuntimeException("队列为空");
+            throw new RuntimeException("empty queue!");
         }
         return arrInt[front++];
-    }
-
-    public static void main(String[] args) {
-        ArrayQueue queue = new ArrayQueue(10);
-        System.out.println(queue.isEmpty());
-        for (int i = 0; i < 10; i++) {
-            queue.insert(i);
-        }
-        queue.remove();
-        queue.insert(99);
-        System.out.println(queue.isFull());
-        while (!queue.isEmpty()) {
-            System.out.println(queue.remove());
-        }
     }
 }

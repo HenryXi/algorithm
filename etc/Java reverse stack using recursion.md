@@ -1,8 +1,13 @@
-package com.henryxi.algorithm.stack.reverse;
-
-import java.util.Random;
-import java.util.Stack;
-
+# Java reverse stack using recursion
+The key step of reversing stack by using recursion is implementing the method `popBottom`. If we can pop an item from bottom
+of stack, then we can reverse a stack with two items.
+```
+        |    2   |                      |         |                    |    1    |
+        |    1   |  pop from bottom ->  |    2    |  push at head ->   |    2    |
+```
+If we can reverse a stack with two items, then we can reverse any stacks no matter how many items it contains. The code 
+is here. Enjoy~
+```java
 public class ReverseStackClient {
     public static void main(String[] args) {
         Random random = new Random();
@@ -36,3 +41,6 @@ public class ReverseStackClient {
         }
     }
 }
+```
+
+EOF

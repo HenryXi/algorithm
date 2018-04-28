@@ -1,2 +1,0 @@
-# Java reverse stack using recursion
-The key step of reversing stack by using recursion is implement the method `popBottom`.

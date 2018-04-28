@@ -7,3 +7,4 @@ This series of blog describes common algorithms.
 * [Java reversing single linked list](http://www.henryxi.com/java-reversing-single-linked-list)
 * [Java find nth Fibonacci number example](http://www.henryxi.com/java-find-nth-fibonacci-number-example)
 * [Java stack supports getMin with time complexity O(1)](http://www.henryxi.com/java-stack-supports-getmin-with-time-complexity-o1)
+* [Java implement queue using two stacks](http://www.henryxi.com/java-implement-queue-using-two-stacks)

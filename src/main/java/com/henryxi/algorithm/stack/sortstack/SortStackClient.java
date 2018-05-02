@@ -8,11 +8,11 @@ public class SortStackClient {
         Random random = new Random();
         Stack<Integer> originalStack = new Stack<>();
         for (int i = 0; i < 10; i++) {
-            originalStack.push(random.nextInt(random.nextInt()));
+            originalStack.push(random.nextInt(100));
         }
         System.out.println("original stack:" + originalStack);
         Stack<Integer> orderedStack = sortStack(originalStack);
-        System.out.println("ordered stack:" + orderedStack);
+        System.out.println("ordered  stack:" + orderedStack);
     }
 
     private static Stack<Integer> sortStack(Stack<Integer> originalStack) {
@@ -26,14 +26,12 @@ public class SortStackClient {
                 tempStack.push(originalStack.pop());
                 continue;
             }
-            int current = originalStack.peek();
+            int current = originalStack.pop();
             int top = tempStack.peek();
-            if (current < top) {
-                tempStack.push(current);
-            } else {
+            if (current > top) {
                 moveAllItemToAnother(tempStack, originalStack);
-
             }
+            tempStack.push(current);
         }
     }
 

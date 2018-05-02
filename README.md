@@ -9,3 +9,4 @@ This series of blog describes common algorithms.
 * [Java stack supports getMin with time complexity O(1)](http://www.henryxi.com/java-stack-supports-getmin-with-time-complexity-o1)
 * [Java implement queue using two stacks](http://www.henryxi.com/java-implement-queue-using-two-stacks)
 * [Java reverse stack using recursion](http://www.henryxi.com/java-reverse-stack-using-recursion)
+* [Java sort stack using temporary stack](http://www.henryxi.com/java-sort-stack-using-temporary-stack)

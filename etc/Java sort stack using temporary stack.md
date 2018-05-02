@@ -1,8 +1,7 @@
-package com.henryxi.algorithm.stack.sortstack;
-
-import java.util.Random;
-import java.util.Stack;
-
+# Java sort stack using temporary stack
+In this page I will show you how to sort a stack by using a temporary stack. The key step of sorting is make sure that push
+items into temporary stack in order. The code is here.
+```java
 public class SortStackClient {
     public static void main(String[] args) {
         Random random = new Random();
@@ -44,3 +43,11 @@ public class SortStackClient {
         }
     }
 }
+```
+The output
+```
+original stack:	[64, 0, 56, 31, 39, 20, 4, 62, 96, 78]
+ordered stack:	[0, 4, 20, 31, 39, 56, 62, 64, 78, 96]
+```
+
+EOF

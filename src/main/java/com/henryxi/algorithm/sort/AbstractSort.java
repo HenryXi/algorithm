@@ -1,8 +1,8 @@
 package com.henryxi.algorithm.sort;
 
 abstract class AbstractSort {
-    static final int MAX = 20;
-    static int numbersArray[] = new int[MAX];
+    static final int NUMBERS_COUNT = 20;
+    static int numbersArray[] = new int[NUMBERS_COUNT];
     long start, end;
 
     AbstractSort() {

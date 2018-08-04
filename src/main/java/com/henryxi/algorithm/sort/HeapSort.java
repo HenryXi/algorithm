@@ -10,12 +10,12 @@ public class HeapSort extends AbstractSort {
     void sort() {
         int m, p, s, temp;
         start = System.nanoTime();
-        int number_temp[] = new int[MAX + 1];
-        for (int temp_i = 1; temp_i < MAX + 1; temp_i++) {
+        int number_temp[] = new int[NUMBERS_COUNT + 1];
+        for (int temp_i = 1; temp_i < NUMBERS_COUNT + 1; temp_i++) {
             number_temp[temp_i] = numbersArray[temp_i - 1];
         }
         createheap(number_temp);
-        m = MAX;
+        m = NUMBERS_COUNT;
         while (m > 1) {
             temp = number_temp[1];
             number_temp[1] = number_temp[m];
@@ -35,7 +35,7 @@ public class HeapSort extends AbstractSort {
                 s = 2 * p;
             }
         }
-        for (int temp_j = 1; temp_j < MAX + 1; temp_j++) {
+        for (int temp_j = 1; temp_j < NUMBERS_COUNT + 1; temp_j++) {
             numbersArray[temp_j - 1] = number_temp[temp_j];
         }
         end = System.nanoTime();
@@ -43,8 +43,8 @@ public class HeapSort extends AbstractSort {
 
     public void createheap(int number[]) {
         int i, s, p, temp;
-        int heap[] = new int[MAX + 1];
-        for (i = 1; i <= MAX; i++) {
+        int heap[] = new int[NUMBERS_COUNT + 1];
+        for (i = 1; i <= NUMBERS_COUNT; i++) {
             heap[i] = number[i];
             s = i;
             p = i / 2;
@@ -56,7 +56,7 @@ public class HeapSort extends AbstractSort {
                 p = s / 2;
             }
         }
-        for (i = 1; i <= MAX; i++) {
+        for (i = 1; i <= NUMBERS_COUNT; i++) {
             number[i] = heap[i];
         }
     }

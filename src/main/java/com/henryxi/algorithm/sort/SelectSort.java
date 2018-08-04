@@ -5,9 +5,9 @@ public class SelectSort extends AbstractSort {
     void sort() {
         int i, j, m, temp;
         start = System.nanoTime();
-        for (i = 0; i < MAX - 1; i++) {
+        for (i = 0; i < NUMBERS_COUNT - 1; i++) {
             m = i;
-            for (j = i + 1; j < MAX; j++) {
+            for (j = i + 1; j < NUMBERS_COUNT; j++) {
                 if (numbersArray[j] < numbersArray[m]) {
                     m = j;
                 }

@@ -7,7 +7,7 @@ public class ShakeSort extends AbstractSort {
     }
     @Override
     void sort() {
-        int i, temp, left = 0, right = MAX - 1, shift = 0;
+        int i, temp, left = 0, right = NUMBERS_COUNT - 1, shift = 0;
         start = System.nanoTime();
         while (left < right) {
             // 向右進行氣泡排序

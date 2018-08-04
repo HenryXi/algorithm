@@ -8,18 +8,18 @@ public class MergeSort extends AbstractSort {
 
     @Override
     void sort() {
-        int number2[] = new int[MAX];
+        int number2[] = new int[NUMBERS_COUNT];
         System.out.print("number2 for merge sort：");
         for (int i = 0; i < 20; i++) {
             number2[i] = (int) (Math.random() * 100);
             System.out.print(number2[i] + " ");
         }
         System.out.println();
-        int number3[] = new int[MAX + MAX];
+        int number3[] = new int[NUMBERS_COUNT + NUMBERS_COUNT];
         start = System.nanoTime();
-        quicksort_3(numbersArray, 0, MAX - 1);
-        quicksort_3(number2, 0, MAX - 1);
-        merge(numbersArray, MAX, number2, MAX, number3);
+        quicksort_3(numbersArray, 0, NUMBERS_COUNT - 1);
+        quicksort_3(number2, 0, NUMBERS_COUNT - 1);
+        merge(numbersArray, NUMBERS_COUNT, number2, NUMBERS_COUNT, number3);
         end = System.nanoTime();
         numbersArray = number3;
     }

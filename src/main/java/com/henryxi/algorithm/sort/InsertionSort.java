@@ -10,7 +10,7 @@ public class InsertionSort extends AbstractSort {
     void sort() {
         int i, j, temp;
         start = System.nanoTime();
-        for (j = 1; j < MAX; j++) {
+        for (j = 1; j < NUMBERS_COUNT; j++) {
             temp = numbersArray[j];
             i = j - 1;
             while (temp < numbersArray[i]) {

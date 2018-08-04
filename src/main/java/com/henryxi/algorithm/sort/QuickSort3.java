@@ -9,7 +9,7 @@ public class QuickSort3 extends AbstractSort {
     @Override
     void sort() {
         start = System.nanoTime();
-        quicksort_3(numbersArray, 0, MAX - 1);
+        quicksort_3(numbersArray, 0, NUMBERS_COUNT - 1);
         end = System.nanoTime();
     }
 

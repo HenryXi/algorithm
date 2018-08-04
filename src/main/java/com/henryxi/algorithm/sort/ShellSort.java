@@ -10,10 +10,10 @@ public class ShellSort extends AbstractSort {
     void sort() {
         int i, j, k, gap, temp;
         start = System.nanoTime();
-        gap = MAX / 2;
+        gap = NUMBERS_COUNT / 2;
         while (gap > 0) {
             for (k = 0; k < gap; k++) {
-                for (i = k + gap; i < MAX; i += gap) {
+                for (i = k + gap; i < NUMBERS_COUNT; i += gap) {
                     for (j = i - gap; j >= k; j -= gap) {
                         if (numbersArray[j] > numbersArray[j + gap]) {
                             temp = numbersArray[j];

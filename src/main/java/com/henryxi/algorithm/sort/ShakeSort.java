@@ -12,19 +12,19 @@ public class ShakeSort extends AbstractSort {
         while (left < right) {
             // 向右進行氣泡排序
             for (i = left; i < right; i++) {
-                if (number[i] > number[i + 1]) {
-                    temp = number[i];
-                    number[i] = number[i + 1];
-                    number[i + 1] = temp;
+                if (numbersArray[i] > numbersArray[i + 1]) {
+                    temp = numbersArray[i];
+                    numbersArray[i] = numbersArray[i + 1];
+                    numbersArray[i + 1] = temp;
                     shift = i;
                 }
             }
             right = shift;
             for (i = right; i > left; i--) {
-                if (number[i] < number[i - 1]) {
-                    temp = number[i];
-                    number[i] = number[i - 1];
-                    number[i - 1] = temp;
+                if (numbersArray[i] < numbersArray[i - 1]) {
+                    temp = numbersArray[i];
+                    numbersArray[i] = numbersArray[i - 1];
+                    numbersArray[i - 1] = temp;
                     shift = i;
                 }
             }

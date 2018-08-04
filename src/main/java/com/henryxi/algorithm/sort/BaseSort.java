@@ -17,15 +17,15 @@ public class BaseSort extends AbstractSort {
         start = System.nanoTime();
         while (n <= 10) {
             for (i = 0; i < MAX; i++) {
-                lsd = ((number[i] / n) % 10);
-                temp[lsd][order[lsd]] = number[i];
+                lsd = ((numbersArray[i] / n) % 10);
+                temp[lsd][order[lsd]] = numbersArray[i];
                 order[lsd]++;
             }
             //重新排列
             for (i = 0; i < MAX; i++) {
                 if (order[i] != 0)
                     for (j = 0; j < order[i]; j++) {
-                        number[k] = temp[i][j];
+                        numbersArray[k] = temp[i][j];
                         k++;
                     }
                 order[i] = 0;

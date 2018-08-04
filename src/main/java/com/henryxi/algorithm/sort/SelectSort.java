@@ -8,14 +8,14 @@ public class SelectSort extends AbstractSort {
         for (i = 0; i < MAX - 1; i++) {
             m = i;
             for (j = i + 1; j < MAX; j++) {
-                if (number[j] < number[m]) {
+                if (numbersArray[j] < numbersArray[m]) {
                     m = j;
                 }
             }
             if (i != m) {
-                temp = number[i];
-                number[i] = number[m];
-                number[m] = temp;
+                temp = numbersArray[i];
+                numbersArray[i] = numbersArray[m];
+                numbersArray[m] = temp;
             }
         }
         end = System.nanoTime();

@@ -10,7 +10,7 @@ public class QuickSort4 extends AbstractSort {
     @Override
     void sort() {
         start = System.nanoTime();
-        quicksort_4(number, 0, MAX - 1);
+        quicksort_4(numbersArray, 0, MAX - 1);
         end = System.nanoTime();
     }
 

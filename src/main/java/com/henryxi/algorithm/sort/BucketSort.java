@@ -10,21 +10,21 @@ public class BucketSort extends AbstractSort {
     void sort() {
         start = System.nanoTime();
         int[] sorted = new int[100 + 1];
-        for (int i = 0; i < number.length; i++) {
-            sorted[number[i]] = sorted[number[i]] + 1;
+        for (int i = 0; i < numbersArray.length; i++) {
+            sorted[numbersArray[i]] = sorted[numbersArray[i]] + 1;
         }
         end = System.nanoTime();
-        number = sorted;
+        numbersArray = sorted;
     }
 
     @Override
     void printAfter() {
-        for (int i = 0; i < number.length; i++) {
-            if (number[i] != 0) {
+        for (int i = 0; i < numbersArray.length; i++) {
+            if (numbersArray[i] != 0) {
                 do {
                     System.out.print(i + " ");
-                    number[i]--;
-                } while (number[i] > 0);
+                    numbersArray[i]--;
+                } while (numbersArray[i] > 0);
             }
         }
     }

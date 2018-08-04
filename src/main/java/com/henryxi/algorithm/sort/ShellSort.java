@@ -15,10 +15,10 @@ public class ShellSort extends AbstractSort {
             for (k = 0; k < gap; k++) {
                 for (i = k + gap; i < MAX; i += gap) {
                     for (j = i - gap; j >= k; j -= gap) {
-                        if (number[j] > number[j + gap]) {
-                            temp = number[j];
-                            number[j] = number[j + gap];
-                            number[j + gap] = temp;
+                        if (numbersArray[j] > numbersArray[j + gap]) {
+                            temp = numbersArray[j];
+                            numbersArray[j] = numbersArray[j + gap];
+                            numbersArray[j + gap] = temp;
                         } else {
                             break;
                         }

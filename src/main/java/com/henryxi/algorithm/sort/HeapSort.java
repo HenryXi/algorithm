@@ -12,7 +12,7 @@ public class HeapSort extends AbstractSort {
         start = System.nanoTime();
         int number_temp[] = new int[MAX + 1];
         for (int temp_i = 1; temp_i < MAX + 1; temp_i++) {
-            number_temp[temp_i] = number[temp_i - 1];
+            number_temp[temp_i] = numbersArray[temp_i - 1];
         }
         createheap(number_temp);
         m = MAX;
@@ -36,7 +36,7 @@ public class HeapSort extends AbstractSort {
             }
         }
         for (int temp_j = 1; temp_j < MAX + 1; temp_j++) {
-            number[temp_j - 1] = number_temp[temp_j];
+            numbersArray[temp_j - 1] = number_temp[temp_j];
         }
         end = System.nanoTime();
     }

@@ -11,16 +11,16 @@ public class InsertionSort extends AbstractSort {
         int i, j, temp;
         start = System.nanoTime();
         for (j = 1; j < MAX; j++) {
-            temp = number[j];
+            temp = numbersArray[j];
             i = j - 1;
-            while (temp < number[i]) {
-                number[i + 1] = number[i];
+            while (temp < numbersArray[i]) {
+                numbersArray[i + 1] = numbersArray[i];
                 i--;
                 if (i == -1) {
                     break;
                 }
             }
-            number[i + 1] = temp;
+            numbersArray[i + 1] = temp;
         }
         end = System.nanoTime();
     }

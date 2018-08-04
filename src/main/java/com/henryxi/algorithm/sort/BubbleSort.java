@@ -13,10 +13,10 @@ public class BubbleSort extends AbstractSort {
         for (i = 0; i < MAX - 1 && flag == 1; i++) {
             flag = 0;
             for (j = 0; j < MAX - i - 1; j++) {
-                if (number[j + 1] < number[j]) {
-                    temp = number[j + 1];
-                    number[j + 1] = number[j];
-                    number[j] = temp;
+                if (numbersArray[j + 1] < numbersArray[j]) {
+                    temp = numbersArray[j + 1];
+                    numbersArray[j + 1] = numbersArray[j];
+                    numbersArray[j] = temp;
                     flag = 1;
                 }
             }

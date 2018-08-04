@@ -17,11 +17,11 @@ public class MergeSort extends AbstractSort {
         System.out.println();
         int number3[] = new int[MAX + MAX];
         start = System.nanoTime();
-        quicksort_3(number, 0, MAX - 1);
+        quicksort_3(numbersArray, 0, MAX - 1);
         quicksort_3(number2, 0, MAX - 1);
-        merge(number, MAX, number2, MAX, number3);
+        merge(numbersArray, MAX, number2, MAX, number3);
         end = System.nanoTime();
-        number = number3;
+        numbersArray = number3;
     }
 
     private int partition(int number[], int left, int right) {

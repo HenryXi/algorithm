@@ -1,4 +1,4 @@
-package com.henryxi.algorithm.interview;
+package com.henryxi.algorithm.interview.fibonacci;
 
 public class FibonacciByLoopClient {
     public static void main(String[] args) {

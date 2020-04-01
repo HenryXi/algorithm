@@ -10,3 +10,4 @@ This series of blog describes common algorithms.
 * [Java implement queue using two stacks](http://www.henryxi.com/java-implement-queue-using-two-stacks)
 * [Java reverse stack using recursion](http://www.henryxi.com/java-reverse-stack-using-recursion)
 * [Java sort stack using temporary stack](http://www.henryxi.com/java-sort-stack-using-temporary-stack)
+* [Red packet algorithm](http://www.henryxi.com/red-packet-algorithm)

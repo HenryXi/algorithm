@@ -5,7 +5,7 @@ koss-root.ids
 .idea
 */*.log
 buildNumber.properties
-*/target/
+/target/
 *.DS_Store
 *.classpath
 *.settings

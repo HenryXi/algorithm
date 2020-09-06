@@ -1,8 +1,11 @@
-package com.henryxi.algorithm.linkedlist.longestsubstring;
+package com.henryxi.algorithm.hash.longestsubstring;
 
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
+ */
 public class LongestSubstringWithoutRepeatingCharactersClient {
     public static void main(String[] args) {
         String str = "abba";

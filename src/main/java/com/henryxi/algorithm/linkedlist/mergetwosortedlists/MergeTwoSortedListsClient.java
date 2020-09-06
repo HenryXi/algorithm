@@ -39,7 +39,7 @@ public class MergeTwoSortedListsClient {
     }
 
     public static ListNode myMergeTwoLists(ListNode l1, ListNode l2) {
-dd
+
     }
 
 class ListNode {

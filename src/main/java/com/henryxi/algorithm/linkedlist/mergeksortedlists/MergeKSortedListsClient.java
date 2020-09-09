@@ -8,7 +8,6 @@ public class MergeKSortedListsClient {
         ListNode l2 = new ListNode(1);
         l2.next = new ListNode(3);
         l2.next.next = new ListNode(4);
-        ListNode listNode = mergeList(l1, l2);
         ListNode[] lists = new ListNode[]{l1, l2};
         mergeKLists(lists);
     }

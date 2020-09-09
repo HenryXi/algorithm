@@ -1,4 +1,4 @@
-package com.henryxi.algorithm.linkedlist.medianoftwosortedarrays;
+package com.henryxi.algorithm.array.medianoftwosortedarrays;
 
 /**
  * https://leetcode-cn.com/problems/median-of-two-sorted-arrays/

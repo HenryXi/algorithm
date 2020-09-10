@@ -1,8 +1,8 @@
 # leetcode
 Talk is cheap show me the code.
 
-| No.       | Runtime     | 
-| -------------: | ----------: |
+| No.       | Problems     | 
+| -------------: | :---------- |
 | 2 | [Add Two Numbers]()   |
 | 19 | [Remove Nth Node From End of List]()   |
 | 21 | [Merge Two Sorted Lists]()   |

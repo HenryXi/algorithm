@@ -1,5 +1,5 @@
 # Add Two Numbers
-[Problem](https://leetcode.com/problems/add-two-numbers/)
+[Problem ](https://leetcode.com/problems/add-two-numbers/)
 
 ```
 public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
@@ -29,6 +29,6 @@ public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 | 2 ms | 39.6 MB   |
 
 
-[henryxi leetcode](http://www.henryxi.com/leetcode)
+[henryxi leetcode list](http://www.henryxi.com/leetcode)
 
 EOF

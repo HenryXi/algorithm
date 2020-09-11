@@ -19,7 +19,7 @@ public class ReverseClient {
         }
         Node pre = head;
         Node current = head.next;
-        Node next = null;
+        Node next;
         while (current != null) {
             next = current.next;
             current.next = pre;

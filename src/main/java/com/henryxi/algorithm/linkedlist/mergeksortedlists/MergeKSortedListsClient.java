@@ -1,5 +1,8 @@
 package com.henryxi.algorithm.linkedlist.mergeksortedlists;
 
+/**
+ * https://leetcode-cn.com/problems/merge-k-sorted-lists/
+ */
 public class MergeKSortedListsClient {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
@@ -12,40 +15,40 @@ public class MergeKSortedListsClient {
         mergeKLists(lists);
     }
 
-    public static ListNode mergeKLists(ListNode[] lists) {
-        ListNode res= new ListNode(Integer.MIN_VALUE);
-        for (int i = 0; i < lists.length; i++) {
-            res = mergeList(lists[i], res);
-        }
-        return res.next;
-    }
+//    public static ListNode mergeKLists(ListNode[] lists) {
+//        ListNode res= new ListNode(Integer.MIN_VALUE);
+//        for (int i = 0; i < lists.length; i++) {
+//            res = mergeList(lists[i], res);
+//        }
+//        return res.next;
+//    }
 
     /**
      * 简单循环是O(n)  折半递归是O(nlogn)
      * @param lists
      * @return
      */
-    public static ListNode otherMergeKLists(ListNode[] lists){
-        if(lists.length == 0)
+    public static ListNode mergeKLists(ListNode[] lists){
+        if(lists.length == 0){
             return null;
-        if(lists.length == 1)
+        }
+        if(lists.length == 1){
             return lists[0];
+        }
         if(lists.length == 2){
             return mergeList(lists[0],lists[1]);
         }
-
         int mid = lists.length/2;
         ListNode[] l1 = new ListNode[mid];
         for(int i = 0; i < mid; i++){
             l1[i] = lists[i];
         }
-
         ListNode[] l2 = new ListNode[lists.length-mid];
         for(int i = mid,j=0; i < lists.length; i++,j++){
             l2[j] = lists[i];
         }
 
-        return mergeList(otherMergeKLists(l1),otherMergeKLists(l2));
+        return mergeList(mergeKLists(l1), mergeKLists(l2));
     }
 
     public static ListNode mergeList(ListNode l1, ListNode l2) {

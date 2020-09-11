@@ -22,7 +22,9 @@ public class ReverseLinkedListClient {
         ListNode next;
         while (current != null) {
             next = current.next;
-            current.next = pre;
+            current.next = pre;//here finish current item reverse
+
+            //below is prepare next loop
             pre = current;
             current = next;
         }

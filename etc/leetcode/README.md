@@ -10,4 +10,5 @@ Talk is cheap show me the code.
 | 24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
 | 25 | Reverse Nodes in k-Group   |Hard|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
+| 61 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|

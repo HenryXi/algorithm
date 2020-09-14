@@ -14,5 +14,5 @@ Talk is cheap show me the code.
 | 83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
 | 86 | [Partition List](http://www.henryxi.com/partition-list)   |Medium|
 | 92 | [Reverse Linked List II](http://www.henryxi.com/reverse-linked-list-ii)   |Medium|
-| 92 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
+| 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|

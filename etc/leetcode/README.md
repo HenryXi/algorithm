@@ -15,4 +15,5 @@ Talk is cheap show me the code.
 | 86 | [Partition List](http://www.henryxi.com/partition-list)   |Medium|
 | 92 | [Reverse Linked List II](http://www.henryxi.com/reverse-linked-list-ii)   |Medium|
 | 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
+| 138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|

@@ -43,9 +43,26 @@ public class ReverseNodesInKGroupClient {
         return dummy.next;
     }
 
-//    public static ListNode myReverseKGroup(ListNode head, int k) {
-//
-//    }
+    public static ListNode myReverseKGroup(ListNode head, int k) {
+        ListNode current = head;
+        ListNode pre = new ListNode(0);
+        ListNode next;
+        int length = 0;
+        while (head != null) {
+            head = head.next;
+            length++;
+        }
+        for (int i = 0; i < length / k; i++) {
+            for (int j = 0; j < k - 1; j++) {
+                next = current.next;
+                current.next = pre;
+                pre = current;
+                current = next;
+            }
+
+        }
+        return null;
+    }
 }
 
 class ListNode {

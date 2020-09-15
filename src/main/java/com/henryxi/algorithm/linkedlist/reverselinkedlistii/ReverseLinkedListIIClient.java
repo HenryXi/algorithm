@@ -1,5 +1,8 @@
 package com.henryxi.algorithm.linkedlist.reverselinkedlistii;
 
+/**
+ * https://leetcode.com/problems/reverse-linked-list-ii/submissions/
+ */
 public class ReverseLinkedListIIClient {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
@@ -18,16 +21,15 @@ public class ReverseLinkedListIIClient {
         ListNode fake = new ListNode(0);
         fake.next = head;
         ListNode pre = fake;
-        for (int i = 0; i < m-1; i++) {
+        for (int i = 0; i < m - 1; i++) {
             pre = pre.next;
         }
-        ListNode next;
-        ListNode current = pre.next;
+        ListNode cur = pre.next;
         for (int i = m; i < n; i++) {
-            next = current.next;
-            current.next=next.next;
-            next.next=pre.next;
-            pre.next=next;
+            ListNode next = cur.next;
+            cur.next = next.next;
+            next.next = pre.next;
+            pre.next = next;
         }
         return fake.next;
     }

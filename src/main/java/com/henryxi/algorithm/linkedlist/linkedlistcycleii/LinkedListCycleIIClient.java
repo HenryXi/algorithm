@@ -1,10 +1,16 @@
 package com.henryxi.algorithm.linkedlist.linkedlistcycleii;
 
+/**
+ * https://leetcode.com/problems/linked-list-cycle-ii/
+ */
 public class LinkedListCycleIIClient {
     public static void main(String[] args) {
         ListNode l1 = new ListNode(1);
         l1.next = new ListNode(2);
         l1.next.next = l1;
+//        l1.next.next = new ListNode(0);
+//        l1.next.next.next = new ListNode(-4);
+//        l1.next.next.next.next = l1.next;
         ListNode listNode = detectCycle(l1);
         System.out.println(listNode.val);
     }
@@ -26,17 +32,13 @@ public class LinkedListCycleIIClient {
             }
         }
         slow = head;
-        ListNode circleStar = fast.next;
         while (true) {
-            slow = slow.next;
-            while (circleStar != fast) {
-                fast = fast.next;
-                if(slow==fast){
-                    return slow;
-                }
+            if (slow == fast) {
+                return slow;
             }
+            slow = slow.next;
+            fast = fast.next;
         }
-
     }
 }
 

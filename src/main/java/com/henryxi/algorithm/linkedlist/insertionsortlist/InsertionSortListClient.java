@@ -2,11 +2,11 @@ package com.henryxi.algorithm.linkedlist.insertionsortlist;
 
 public class InsertionSortListClient {
     public static void main(String[] args) {
-        ListNode l1 = new ListNode(4);
-        l1.next = new ListNode(2);
-        l1.next.next = new ListNode(1);
-        l1.next.next.next = new ListNode(3);
-        ListNode listNode = insertionSortList(l1);
+        ListNode l1 = new ListNode(1);
+        l1.next = new ListNode(1);
+//        l1.next.next = new ListNode(5);
+//        l1.next.next.next = new ListNode(2);
+        ListNode listNode = otherInsertionSortList(l1);
         while (listNode != null) {
             System.out.println(listNode.val);
             listNode = listNode.next;
@@ -52,6 +52,28 @@ public class InsertionSortListClient {
         }
         pre.next = listNode;
         return sortedListNode;
+    }
+
+    public static ListNode otherInsertionSortList(ListNode head) {
+        ListNode dummy = new ListNode(0);
+        ListNode pre;
+        dummy.next = head;
+        while (head != null && head.next != null) {
+            if (head.val <= head.next.val) {
+                head = head.next;
+                continue;
+            }
+            pre = dummy;
+            while (pre.next.val < head.next.val) {
+                pre = pre.next;
+            }
+            ListNode curr = head.next;
+            head.next = curr.next;
+            curr.next= pre.next;
+            pre.next = curr;
+
+        }
+        return dummy.next;
     }
 }
 

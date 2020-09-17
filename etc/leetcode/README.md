@@ -19,4 +19,5 @@ Talk is cheap show me the code.
 | 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|
 | 142 | [Linked List Cycle II](http://www.henryxi.com/linked-list-cycle-ii)   |Medium|
 | 143 | [Reorder List](http://www.henryxi.com/reorder-list)   |Medium|
+| 143 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|

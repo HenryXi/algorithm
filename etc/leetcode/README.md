@@ -22,4 +22,5 @@ Talk is cheap show me the code.
 | 147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
 | 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
+| 203 | [Remove Linked List Elements](http://www.henryxi.com/remove-linked-list-elements)   |Easy|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|

@@ -21,4 +21,5 @@ Talk is cheap show me the code.
 | 143 | [Reorder List](http://www.henryxi.com/reorder-list)   |Medium|
 | 147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
 | 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
+| 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|

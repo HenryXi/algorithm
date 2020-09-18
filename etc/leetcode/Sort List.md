@@ -1,20 +1,8 @@
-package com.henryxi.algorithm.linkedlist.sortlist;
+# Sort List
+[Problem Description](https://leetcode.com/problems/sort-list/)
 
-public class SortListClient {
-    public static void main(String[] args) {
-        ListNode l1 = new ListNode(4);
-        l1.next = new ListNode(2);
-        l1.next.next = new ListNode(1);
-        l1.next.next.next = new ListNode(3);
-        ListNode listNode = sortList(l1);
-        while (listNode != null) {
-            System.out.println(listNode.val);
-            listNode = listNode.next;
-        }
-        System.out.println(System.currentTimeMillis());
-    }
-
-    public static ListNode sortList(ListNode head) {
+```
+public static ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
         }
@@ -51,22 +39,13 @@ public class SortListClient {
         }
         return dummy.next;
     }
-}
+```
 
-class ListNode {
-    int val;
-    ListNode next;
+| Runtime       | Memory     | 
+| :------------- | :---------- |
+| 3 ms | 41.5 MB	   |
 
-    ListNode() {
-    }
 
-    ListNode(int val) {
-        this.val = val;
-    }
+[henryxi leetcode list](http://www.henryxi.com/leetcode)
 
-    ListNode(int val, ListNode next) {
-        this.val = val;
-        this.next = next;
-    }
-}
-
+EOF

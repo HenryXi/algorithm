@@ -33,3 +33,4 @@ Talk is cheap show me the code.
 | 725 | [Split Linked List in Parts](http://www.henryxi.com/split-linked-list-in-parts)   |Medium|
 | 817 | [Linked List Components](http://www.henryxi.com/linked-list-components)   |Medium|
 | 876 | [Middle of the Linked List](http://www.henryxi.com/middle-of-the-linked-list)   |Easy|
+| 1019 | [Next Greater Node In Linked List](http://www.henryxi.com/next-greater-node-in-linked-list)   |Medium|

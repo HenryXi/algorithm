@@ -19,65 +19,6 @@ public class NextGreaterNodeInLinkedListClient {
     }
 
     public static int[] nextLargerNodes(ListNode head) {
-        ListNode cur = head;
-        int size = 0;
-        while (cur != null) {
-            size++;
-            cur = cur.next;
-        }
-        ListNode newListNode = reverse(head);
-        int[] ans = new int[size];
-        int largeNum = -1;
-        int preValue = -1;
-        for (int i = size - 1; i >= 0; i--) {
-            int curValue = newListNode.val;
-            int max = Math.max(preValue,largeNum);
-            int min = Math.min(preValue,largeNum);
-            if (i == size - 1) {
-                ans[i] = 0;
-                largeNum = curValue;
-                preValue = curValue;
-                newListNode = newListNode.next;
-                continue;
-            }
-            if (curValue > max) {
-                ans[i] = 0;
-                largeNum = max;
-                preValue = curValue;
-                newListNode = newListNode.next;
-                continue;
-            }
-            if (curValue < min) {
-                ans[i] = largeNum;
-                largeNum = ans[i];
-                preValue = curValue;
-                continue;
-            }
-            not finish(need implement stack function)
-        }
-        return ans;
-    }
-
-    private static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
-    }
-
-    private static ListNode reverse(ListNode head) {
-        ListNode pre = null;
-        ListNode cur = head;
-        ListNode next;
-        while (cur != null) {
-            next = cur.next;
-            cur.next = pre;
-            pre = cur;
-            cur = next;
-        }
-        return pre;
-    }
-
-    public static int[] otherNextLargerNode(ListNode head) {
         if (head == null) {
             return null;
         }
@@ -96,7 +37,6 @@ public class NextGreaterNodeInLinkedListClient {
             stack.push(list.get(i));
         }
         return ans;
-
     }
 }
 

@@ -34,3 +34,4 @@ Talk is cheap show me the code.
 | 817 | [Linked List Components](http://www.henryxi.com/linked-list-components)   |Medium|
 | 876 | [Middle of the Linked List](http://www.henryxi.com/middle-of-the-linked-list)   |Easy|
 | 1019 | [Next Greater Node In Linked List](http://www.henryxi.com/next-greater-node-in-linked-list)   |Medium|
+| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](http://www.henryxi.com/remove-zero-sum-consecutive-nodes-from-linked-list)   |Medium|

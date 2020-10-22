@@ -13,13 +13,13 @@ public class RemoveZeroSumConsecutiveNodesFromLinkedListClient {
             newList = newList.next;
         }
     }
-not finish(how to cut sub list?)
+
     public static ListNode removeZeroSumSublists(ListNode head) {
         ListNode dummy = new ListNode(0);
         ListNode pre = dummy;
         dummy.next = head;
         while (pre != null) {
-            ListNode cur = head;
+            ListNode cur = pre.next;
             int sum = 0;
             while (cur != null) {
                 sum = sum + cur.val;

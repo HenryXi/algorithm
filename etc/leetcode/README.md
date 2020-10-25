@@ -36,3 +36,4 @@ Talk is cheap show me the code.
 | 1019 | [Next Greater Node In Linked List](http://www.henryxi.com/next-greater-node-in-linked-list)   |Medium|
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](http://www.henryxi.com/remove-zero-sum-consecutive-nodes-from-linked-list)   |Medium|
 | 1290 | [Convert Binary Number in a Linked List to Integer](http://www.henryxi.com/convert-binary-number-in-a-linked-list-to-integer)   |Easy|
+| 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|

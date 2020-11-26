@@ -7,14 +7,19 @@ public class ValidateBinarySearchTreeClient {
 
 
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(10);
-        root.left = new TreeNode(5);
-        root.right = new TreeNode(15, new TreeNode(6), new TreeNode(20));
+        TreeNode root = new TreeNode(0);
+        root.left = new TreeNode(-1);
+//        root.right = new TreeNode(3);
         System.out.println(isValidBST(root));
     }
+
     static List<Integer> ans = new ArrayList<>();
+
     public static boolean isValidBST(TreeNode root) {
         if (root == null) {
+            return true;
+        }
+        if (root.left == null && root.right == null) {
             return true;
         }
         getInorderTraversal(root, ans);
@@ -27,6 +32,9 @@ public class ValidateBinarySearchTreeClient {
     }
 
     private static void getInorderTraversal(TreeNode node, List<Integer> ans) {
+        if (node == null) {
+            return;
+        }
         getInorderTraversal(node.left, ans);
         ans.add(node.val);
         getInorderTraversal(node.right, ans);

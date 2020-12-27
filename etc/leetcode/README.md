@@ -18,7 +18,7 @@ Talk is cheap show me the code.
 | 92 | [Reverse Linked List II](http://www.henryxi.com/reverse-linked-list-ii)   |Medium|
 | 94 | [Binary Tree Inorder Traversal](http://www.henryxi.com/binary-tree-inorder-traversal)   |Medium|
 | 96 | [Unique Binary Search Trees](http://www.henryxi.com/unique-binary-search-trees)   |Medium|
-| 96 | [Validate Binary Search Tree](http://www.henryxi.com/validate-binary-search-tree)   |Medium|
+| 98 | [Validate Binary Search Tree](http://www.henryxi.com/validate-binary-search-tree)   |Medium|
 | 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
 | 138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
 | 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|

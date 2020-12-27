@@ -9,13 +9,28 @@ public class ValidateBinarySearchTreeClient {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(0);
         root.left = new TreeNode(-1);
-//        root.right = new TreeNode(3);
+        root.right = new TreeNode(3);
         System.out.println(isValidBST(root));
+    }
+
+    public static boolean isValidBST(TreeNode root) {
+        return isValidBST(root, null, null);
+    }
+
+    private static boolean isValidBST(TreeNode currentNode, Integer low, Integer high) {
+        if (currentNode == null) {
+            return true;
+        }
+        if ((high != null && high <= currentNode.val) || (low != null && low >= currentNode.val)) {
+            return false;
+        }
+        return isValidBST(currentNode.left, low, currentNode.val) && isValidBST(currentNode.right, currentNode.val, high);
     }
 
     static List<Integer> ans = new ArrayList<>();
 
-    public static boolean isValidBST(TreeNode root) {
+    public static boolean isMyValidBST(TreeNode root) {
+        ans.clear();
         if (root == null) {
             return true;
         }

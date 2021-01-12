@@ -1,16 +1,11 @@
 package com.henryxi.algorithm.tree.kthsmallestelementinabst;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Stack;
 
 public class KthSmallestElementInABSTClient {
-    private static List<TreeNode> temp = new LinkedList<>();
-
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(3,new TreeNode(1,null,new TreeNode(2)),new TreeNode(4));
-        System.out.println(kthSmallest(root,2));
+        TreeNode root = new TreeNode(3, new TreeNode(1, null, new TreeNode(2)), new TreeNode(4));
+        System.out.println(kthSmallest(root, 2));
     }
 
     public static int kthSmallest(TreeNode root, int k) {
@@ -21,9 +16,9 @@ public class KthSmallestElementInABSTClient {
             if (cur != null) {
                 stack.push(cur);
                 cur = cur.left;
-            }else{
+            } else {
                 cur = stack.pop();
-                if(curIndex==k-1){
+                if (curIndex == k - 1) {
                     return cur.val;
                 }
                 curIndex++;

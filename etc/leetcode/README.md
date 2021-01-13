@@ -9,7 +9,7 @@ Talk is cheap show me the code.
 | 23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|
 | 24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
 | 25 | Reverse Nodes in k-Group   |Hard|
-| 42 | Trapping Rain Water   |Hard|
+| 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
 | 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|

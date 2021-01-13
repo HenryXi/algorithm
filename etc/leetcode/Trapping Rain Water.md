@@ -1,7 +1,7 @@
 # Trapping Rain Water
 [Problem Description](https://leetcode.com/problems/trapping-rain-water/)
 
-There way two way to solve this problem.
+There way two ways to solve this problem.
 
 **effective**
 ```

@@ -6,6 +6,7 @@ Talk is cheap show me the code.
 | 1 | [Two Sum](http://www.henryxi.com/two-sum)   |Easy|
 | 2 | [Add Two Numbers](http://www.henryxi.com/add-two-numbers)   |Medium|
 | 3 | [Longest Substring Without Repeating Characters](http://www.henryxi.com/longest-substring-without-repeating-characters)   |Medium|
+| 4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
 | 19 | [Remove Nth Node From End of List](http://www.henryxi.com/remove-nth-node-from-end-of-list)   |Medium|
 | 21 | [Merge Two Sorted Lists](http://www.henryxi.com/merge-two-sorted-lists)   |Easy|
 | 23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|

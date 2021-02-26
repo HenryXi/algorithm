@@ -3,6 +3,7 @@ package com.henryxi.algorithm.array.threesum;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+
 //TODO not finish
 public class ThreeSumClient {
     public static void main(String[] args) {
@@ -14,7 +15,9 @@ public class ThreeSumClient {
 
     public static List<List<Integer>> threeSum(Integer[] nums) {
         List<List<Integer>> list = new LinkedList<>();
-        for (int i = nums.length-1; i >= 0; i--) {
+        int head = 0;
+        int tail = nums.length - 1;
+        for (int i = nums.length - 1; i >= 0; i--) {
 
         }
         return list;

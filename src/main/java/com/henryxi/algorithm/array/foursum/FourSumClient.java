@@ -17,5 +17,6 @@ public class FourSumClient {
         if(length<3){
             return new ArrayList<>();
         }
+        return null;
     }
 }

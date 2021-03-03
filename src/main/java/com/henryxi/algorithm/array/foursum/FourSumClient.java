@@ -9,7 +9,7 @@ public class FourSumClient {
     }
 
     public List<List<Integer>> fourSum(int[] nums, int target) {
-
+        return null;
     }
 
     public List<List<Integer>> threeSum(int[] nums) {

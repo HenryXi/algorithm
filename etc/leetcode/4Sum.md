@@ -1,19 +1,8 @@
-package com.henryxi.algorithm.array.foursum;
+# 4Sum
+[Problem Description](https://leetcode.com/problems/4sum)
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
-
-public class FourSumClient {
-    public static void main(String[] args) {
-        int[] nums = new int[]{1,-2,-5,-4,-3,3,3,5};
-        System.out.println(fourSum(nums, -11));
-    }
-
-    public static List<List<Integer>> fourSum(int[] nums, int target) {
-        int length = nums.length;
+```
+int length = nums.length;
         if (length < 4) {
             return new ArrayList<>();
         }
@@ -58,5 +47,13 @@ public class FourSumClient {
         }
 
         return ans;
-    }
-}
+```
+
+| Runtime       | Memory     | 
+| :------------- | :---------- |
+| 13 ms | 39.4 MB	   |
+
+
+[henryxi leetcode list](http://www.henryxi.com/leetcode)
+
+EOF

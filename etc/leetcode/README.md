@@ -16,6 +16,7 @@ Talk is cheap show me the code.
 | 23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|
 | 24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
 | 25 | Reverse Nodes in k-Group   |Hard|
+| 26 | [Remove Duplicates from Sorted Array](http://www.henryxi.com/remove-duplicates-from-sorted-array)   |Medium|
 | 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|

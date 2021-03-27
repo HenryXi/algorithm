@@ -25,7 +25,7 @@ public class NextPermutationClient {
         }
         if (i >= 0) {
             int j = nums.length - 1;
-            while (j >= 0 && nums[j] <= nums[i]) {
+            while (j >i && nums[j] <= nums[i]) {
                 j--;
             }
             swap(nums, i, j);

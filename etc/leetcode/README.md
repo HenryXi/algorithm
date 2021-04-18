@@ -20,6 +20,7 @@ Talk is cheap show me the code.
 | 27 | [Remove Element](http://www.henryxi.com/remove-element)   |Easy|
 | 31 | [Next Permutation](http://www.henryxi.com/next-permutation)   |Medium|
 | 33 | [Search in Rotated Sorted Array](http://www.henryxi.com/search-in-rotated-sorted-array)   |Medium|
+| 34 | [Find First and Last Position of Element in Sorted Array](http://www.henryxi.com/find-first-and-last-position-of-element-in-sorted-array)   |Medium|
 | 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|

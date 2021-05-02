@@ -1,44 +1,37 @@
 package com.henryxi.algorithm.array.combinationsum;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 //todo not finish
 public class CombinationSumClient {
     public static void main(String[] args) {
-        int[] nums = new int[]{2, 3, 6, 7};
-        System.out.println(combinationSum(nums, 7));
+        int[] nums = new int[]{2, 3, 5};
+        CombinationSumClient client = new CombinationSumClient();
+        System.out.println(client.combinationSum(nums, 8));
     }
 
-    public static List<List<Integer>> combinationSum(int[] candidates, int target) {
+    private List<List<Integer>> res = new ArrayList<>();
+
+    public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates);
-        int endIndex = getEndIndex(candidates, target);
-        return combinationSum(candidates, target, endIndex);
+        loopAfter(candidates, target, 0, new ArrayList<>());
+        return res;
     }
 
-    private static List<List<Integer>> combinationSum(int[] candidates, int target, int endIndex) {
-        for (int i = 0; i <= endIndex; i++) {
-
+    private void loopAfter(int[] candidates, int target, int start, ArrayList<Integer> track) {
+        if (target == 0) {
+            res.add(new ArrayList<>(track));
+            return;
         }
-    }
-
-    private static int getEndIndex(int[] candidates, int target) {
-        int left = 0;
-        int right = candidates.length - 1;
-        while (left < right) {
-            int mid = (left + right) / 2;
-            if (candidates[mid] == target) {
-                return mid;
+        for (int i = start; i < candidates.length; i++) {
+            if (target < candidates[i]) {
+                break;
             }
-            if (candidates[mid] > target) {
-                right = mid - 1;
-            } else {
-                left = mid + 1;
-            }
+            track.add(candidates[i]);
+            loopAfter(candidates, target - candidates[i], i, track);
+            track.remove(track.size() - 1);
         }
-        if (candidates[left] > target) {
-            return left;
-        }
-        return left + 1;
     }
-
 }

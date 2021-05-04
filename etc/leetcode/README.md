@@ -23,6 +23,7 @@ Talk is cheap show me the code.
 | 34 | [Find First and Last Position of Element in Sorted Array](http://www.henryxi.com/find-first-and-last-position-of-element-in-sorted-array)   |Medium|
 | 35 | [Search Insert Position](http://www.henryxi.com/search-insert-position)   |Easy|
 | 39 | [Combination Sum](http://www.henryxi.com/combination-sum)   |Medium|
+| 40 | [Combination Sum II](http://www.henryxi.com/combination-sum-ii)   |Medium|
 | 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|

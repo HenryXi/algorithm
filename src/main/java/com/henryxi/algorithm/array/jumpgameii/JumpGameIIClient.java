@@ -5,7 +5,8 @@ public class JumpGameIIClient {
         int[] nums = new int[]{2, 3, 1, 1, 4};
         System.out.println(jump(nums));
     }
-//todo not finish
+
+    //todo not finish
     public static int jump(int[] nums) {
         if (nums.length == 1) {
             return 0;
@@ -15,7 +16,7 @@ public class JumpGameIIClient {
         int step = 0;
         for (int i = 0; i < nums.length; i++) {
             nextMaxReach = Math.max(i + nums[i], nextMaxReach);
-            if (nextMaxReach >= nums.length - 1){
+            if (nextMaxReach >= nums.length - 1) {
                 return (step + 1);
             }
             if (i == reach) {

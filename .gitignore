@@ -11,4 +11,5 @@ buildNumber.properties
 *.settings
 *.project
 */koss-report-base/*.pdf
+~$*
 

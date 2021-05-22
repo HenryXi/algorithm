@@ -48,6 +48,7 @@ Talk is cheap show me the code.
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
 | 203 | [Remove Linked List Elements](http://www.henryxi.com/remove-linked-list-elements)   |Easy|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|
+| 225 | [Implement Stack using Queues](http://www.henryxi.com/implement-stack-using-queues)   |Easy|
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)   |Medium|
 | 234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|

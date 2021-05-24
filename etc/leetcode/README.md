@@ -7,6 +7,7 @@ Talk is cheap show me the code.
 | 2 | [Add Two Numbers](http://www.henryxi.com/add-two-numbers)   |Medium|
 | 3 | [Longest Substring Without Repeating Characters](http://www.henryxi.com/longest-substring-without-repeating-characters)   |Medium|
 | 4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
+| 7 | [Reverse Integer](http://www.henryxi.com/reverse-integer/)   |Easy|
 | 11 | [Container With Most Water](http://www.henryxi.com/container-with-most-water)   |Medium|
 | 15 | [3Sum](http://www.henryxi.com/3sum)   |Medium|
 | 16 | [3Sum Closest](http://www.henryxi.com/3sum-closest)   |Medium|
@@ -69,13 +70,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|1|
-|206|
-|3|
-|2|
-|20|
-|225|
-|7|
 |9|
 |26|
 |27|

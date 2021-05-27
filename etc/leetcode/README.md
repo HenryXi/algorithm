@@ -7,6 +7,7 @@ Talk is cheap show me the code.
 | 2 | [Add Two Numbers](http://www.henryxi.com/add-two-numbers)   |Medium|
 | 3 | [Longest Substring Without Repeating Characters](http://www.henryxi.com/longest-substring-without-repeating-characters)   |Medium|
 | 4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
+| 5 | [Longest Palindromic Substring](http://www.henryxi.com/longest-palindromic-substring)   |Medium|
 | 7 | [Reverse Integer](http://www.henryxi.com/reverse-integer/)   |Easy|
 | 9 | [Palindrome Number](http://www.henryxi.com/palindrome-number/)   |Easy|
 | 11 | [Container With Most Water](http://www.henryxi.com/container-with-most-water)   |Medium|

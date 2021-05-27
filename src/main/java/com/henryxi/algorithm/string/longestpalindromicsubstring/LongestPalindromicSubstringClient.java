@@ -1,4 +1,5 @@
 package com.henryxi.algorithm.string.longestpalindromicsubstring;
+
 //todo not finish
 public class LongestPalindromicSubstringClient {
     public static void main(String[] args) {
@@ -30,9 +31,9 @@ public class LongestPalindromicSubstringClient {
             }
             if (len > maxLength) {
                 maxLength = len;
-                startIndex = left;
+                startIndex = left + 1;
             }
         }
-        return s.substring(startIndex+1, startIndex + maxLength + 1);
+        return s.substring(startIndex, startIndex + maxLength );
     }
 }

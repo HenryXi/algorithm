@@ -1,6 +1,6 @@
 package com.henryxi.algorithm.string.longestpalindromicsubstring;
 
-//todo not finish
+
 public class LongestPalindromicSubstringClient {
     public static void main(String[] args) {
         System.out.println(longestPalindrome("babad"));

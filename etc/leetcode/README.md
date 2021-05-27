@@ -73,7 +73,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|5|
 |14|
 |4|
 |35|

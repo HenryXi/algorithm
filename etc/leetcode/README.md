@@ -12,6 +12,7 @@ Talk is cheap show me the code.
 | 9 | [Palindrome Number](http://www.henryxi.com/palindrome-number/)   |Easy|
 | 11 | [Container With Most Water](http://www.henryxi.com/container-with-most-water)   |Medium|
 | 13 | [Roman to Integer](http://www.henryxi.com/roman-to-integer)   |Easy|
+| 14 | [Longest Common Prefix](http://www.henryxi.com/longest-common-prefix/)   |Easy|
 | 15 | [3Sum](http://www.henryxi.com/3sum)   |Medium|
 | 16 | [3Sum Closest](http://www.henryxi.com/3sum-closest)   |Medium|
 | 18 | [4Sum](http://www.henryxi.com/4sum)   |Medium|

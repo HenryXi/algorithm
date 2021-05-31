@@ -15,6 +15,7 @@ Talk is cheap show me the code.
 | 14 | [Longest Common Prefix](http://www.henryxi.com/longest-common-prefix/)   |Easy|
 | 15 | [3Sum](http://www.henryxi.com/3sum)   |Medium|
 | 16 | [3Sum Closest](http://www.henryxi.com/3sum-closest)   |Medium|
+| 17 | [Letter Combinations of a Phone Number](http://www.henryxi.com/letter-combinations-of-a-phone-number)   |Medium|
 | 18 | [4Sum](http://www.henryxi.com/4sum)   |Medium|
 | 19 | [Remove Nth Node From End of List](http://www.henryxi.com/remove-nth-node-from-end-of-list)   |Medium|
 | 20 | [Valid Parentheses](http://www.henryxi.com/valid-parentheses)   |Easy|

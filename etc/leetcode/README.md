@@ -36,6 +36,7 @@ Talk is cheap show me the code.
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 53 | [Maximum Subarray](http://www.henryxi.com/maximum-subarray/)   |Easy|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
+| 66 | [Plus One](http://www.henryxi.com/plus-one/)   |Easy|
 | 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
 | 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
 | 83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
@@ -77,9 +78,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|28|
-|21|
-|121|
 |66|
 |283|
 |88|

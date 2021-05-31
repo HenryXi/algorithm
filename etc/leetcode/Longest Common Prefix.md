@@ -12,9 +12,6 @@ public static String longestCommonPrefix(String[] strs) {
     String base = strs[0];
     for (String str : strs) {
         while (!str.startsWith(base)) {
-            if (base.length() == 0) {
-                return "";
-            }
             base = base.substring(0, base.length() - 1);
         }
     }

@@ -61,6 +61,7 @@ Talk is cheap show me the code.
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)   |Medium|
 | 234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
+| 283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
 | 328 | [Odd Even Linked List](http://www.henryxi.com/odd-even-linked-list)   |Medium|
 | 430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
 | 445 | [Add Two Numbers II](http://www.henryxi.com/add-two-numbers-ii)   |Medium|
@@ -78,7 +79,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|66|
 |283|
 |88|
 |17|

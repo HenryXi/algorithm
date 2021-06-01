@@ -13,7 +13,7 @@ public class MergeSortedArrayClient {
         System.out.println(Arrays.toString(array1));
     }
 
-    public static void merge(int[] nums1, int m, int[] nums2, int n) {
+    public static void merge(int[] A, int m, int[] B, int n) {
         int index1 = m - 1;
         int index2 = n - 1;
         int indexNew = m + n - 1;
@@ -23,23 +23,23 @@ public class MergeSortedArrayClient {
                 break;
             }
             if (index1 >= 0 && index2 >= 0) {
-                if (nums1[index1] > nums2[index2]) {
-                    lastItem = nums1[index1];
+                if (A[index1] > B[index2]) {
+                    lastItem = A[index1];
                     index1--;
                 } else {
-                    lastItem = nums2[index2];
+                    lastItem = B[index2];
                     index2--;
                 }
             } else {
                 if (index1 < 0) {
-                    lastItem = nums2[index2];
+                    lastItem = B[index2];
                     index2--;
                 } else {
-                    lastItem = nums1[index1];
+                    lastItem = A[index1];
                     index1--;
                 }
             }
-            nums1[indexNew--] = lastItem;
+            A[indexNew--] = lastItem;
         } while (true);
     }
 }

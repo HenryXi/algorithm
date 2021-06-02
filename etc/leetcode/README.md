@@ -9,6 +9,7 @@ Talk is cheap show me the code.
 | 4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
 | 5 | [Longest Palindromic Substring](http://www.henryxi.com/longest-palindromic-substring)   |Medium|
 | 7 | [Reverse Integer](http://www.henryxi.com/reverse-integer/)   |Easy|
+| 8 | [String to Integer (atoi)](http://www.henryxi.com/string-to-integer-atoi/)   |Medium|
 | 9 | [Palindrome Number](http://www.henryxi.com/palindrome-number/)   |Easy|
 | 11 | [Container With Most Water](http://www.henryxi.com/container-with-most-water)   |Medium|
 | 13 | [Roman to Integer](http://www.henryxi.com/roman-to-integer)   |Easy|

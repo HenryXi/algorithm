@@ -83,7 +83,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|122|
 |46|
 |198|
 |22|

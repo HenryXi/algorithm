@@ -50,6 +50,7 @@ Talk is cheap show me the code.
 | 98 | [Validate Binary Search Tree](http://www.henryxi.com/validate-binary-search-tree)   |Medium|
 | 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
 | 121 | [Best Time to Buy and Sell Stock](http://www.henryxi.com/best-time-to-buy-and-sell-stock)   |Easy|
+| 122 | [Best Time to Buy and Sell Stock II](http://www.henryxi.com/best-time-to-buy-and-sell-stock-ii)   |Easy|
 | 138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
 | 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|
 | 142 | [Linked List Cycle II](http://www.henryxi.com/linked-list-cycle-ii)   |Medium|
@@ -82,7 +83,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|8|
 |122|
 |46|
 |198|

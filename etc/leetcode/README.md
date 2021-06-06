@@ -21,6 +21,7 @@ Talk is cheap show me the code.
 | 19 | [Remove Nth Node From End of List](http://www.henryxi.com/remove-nth-node-from-end-of-list)   |Medium|
 | 20 | [Valid Parentheses](http://www.henryxi.com/valid-parentheses)   |Easy|
 | 21 | [Merge Two Sorted Lists](http://www.henryxi.com/merge-two-sorted-lists)   |Easy|
+| 22 | [Generate Parentheses](http://www.henryxi.com/generate-parentheses/)   |Medium|
 | 23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|
 | 24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
 | 25 | Reverse Nodes in k-Group   |Hard|

@@ -1,4 +1,4 @@
-package com.henryxi.algorithm.backtracking;
+package com.henryxi.algorithm.backtracking.permutation;
 
 import java.util.LinkedList;
 import java.util.List;

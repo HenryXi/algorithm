@@ -35,6 +35,7 @@ Talk is cheap show me the code.
 | 40 | [Combination Sum II](http://www.henryxi.com/combination-sum-ii)   |Medium|
 | 41 | [First Missing Positive](http://www.henryxi.com/first-missing-positive)   |Hard|
 | 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
+| 46 | [Permutations](http://www.henryxi.com/permutations/)   |Medium|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 53 | [Maximum Subarray](http://www.henryxi.com/maximum-subarray/)   |Easy|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
@@ -83,7 +84,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|46|
 |198|
 |22|
 |104|

@@ -35,6 +35,7 @@ Talk is cheap show me the code.
 | 40 | [Combination Sum II](http://www.henryxi.com/combination-sum-ii)   |Medium|
 | 41 | [First Missing Positive](http://www.henryxi.com/first-missing-positive)   |Hard|
 | 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
+| 46 | [Permutations](http://www.henryxi.com/permutations/)   |Medium|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 53 | [Maximum Subarray](http://www.henryxi.com/maximum-subarray/)   |Easy|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
@@ -58,6 +59,7 @@ Talk is cheap show me the code.
 | 147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
 | 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
+| 198 | [House Robber](http://www.henryxi.com/house-robber/)   |Medium|
 | 203 | [Remove Linked List Elements](http://www.henryxi.com/remove-linked-list-elements)   |Easy|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|
 | 225 | [Implement Stack using Queues](http://www.henryxi.com/implement-stack-using-queues)   |Easy|
@@ -83,8 +85,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|46|
-|198|
 |22|
 |104|
 |38|

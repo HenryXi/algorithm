@@ -1,43 +1,43 @@
 package com.henryxi.algorithm.backtracking;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-//todo not finish
 public class PermutationsClient {
     public static void main(String[] args) {
-        int[] array = new int[]{1, 2, 3};
-        List<List<Integer>> result = permute(array);
-        for (List<Integer> list : result) {
-            System.out.println(list);
+        int[] arrays = new int[]{1, 2, 3};
+        System.out.println(permute(arrays));
+    }
+
+
+    public static List<List<Integer>> permute(int[] nums) {
+        List<List<Integer>> l = new LinkedList<>();
+        permute(nums, 0, l);
+        return l;
+    }
+
+    private static void permute(int[] nums, int p, List<List<Integer>> l) {
+        if (p + 1 == nums.length) {
+            List<Integer> ll = new LinkedList<>();
+            for (int num : nums) {
+                ll.add(num);
+            }
+            l.add(ll);
+            return;
+        }
+        for (int i = p; i < nums.length; i++) {
+            swap(nums, p, i);
+            permute(nums, p + 1, l);
+            swap(nums, p, i);
         }
     }
 
-    public static List<List<Integer>> permute(int[] nums) {
-        int length = nums.length;
-        int totalSize = 1;
-        for (int i = 1; i <= length; i++) {
-            totalSize = totalSize * i;
+    private static void swap(int[] nums, int i, int j) {
+        if (i == j) {
+            return;
         }
-        int step = totalSize / length;
-        List<List<Integer>> result = new ArrayList<>(totalSize);
-        for (int i = 0; i < totalSize; i++) {
-            result.add(Arrays.stream(nums).boxed().collect(Collectors.toList()));
-        }
-        int startIndex = 0;
-        for (int num : nums) {
-            int loopTimes = 0;
-            for (List<Integer> list : result) {
-                list.set(startIndex%, num);
-                loopTimes++;
-                if (loopTimes == step) {
-                    startIndex++;
-                    loopTimes = 0;
-                }
-            }
-        }
-        return result;
+        int tmp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = tmp;
     }
 }

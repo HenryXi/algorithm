@@ -22,7 +22,7 @@ public String countAndSay(int n) {
 
 | Runtime       | Memory     | 
 | :------------- | :---------- |
-|  ms | 5 MB	   |
+| 5 ms | 36.6 MB	   |
 
 
 [henryxi leetcode list](http://www.henryxi.com/leetcode)

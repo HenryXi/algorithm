@@ -32,6 +32,7 @@ Talk is cheap show me the code.
 | 33 | [Search in Rotated Sorted Array](http://www.henryxi.com/search-in-rotated-sorted-array)   |Medium|
 | 34 | [Find First and Last Position of Element in Sorted Array](http://www.henryxi.com/find-first-and-last-position-of-element-in-sorted-array)   |Medium|
 | 35 | [Search Insert Position](http://www.henryxi.com/search-insert-position)   |Easy|
+| 38 | [Count and Say](http://www.henryxi.com/count-and-say)   |Medium|
 | 39 | [Combination Sum](http://www.henryxi.com/combination-sum)   |Medium|
 | 40 | [Combination Sum II](http://www.henryxi.com/combination-sum-ii)   |Medium|
 | 41 | [First Missing Positive](http://www.henryxi.com/first-missing-positive)   |Hard|

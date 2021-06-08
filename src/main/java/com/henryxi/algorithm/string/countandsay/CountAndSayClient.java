@@ -1,5 +1,5 @@
 package com.henryxi.algorithm.string.countandsay;
-//todo not finish
+
 public class CountAndSayClient {
     public static void main(String[] args) {
         CountAndSayClient client = new CountAndSayClient();
@@ -7,23 +7,19 @@ public class CountAndSayClient {
     }
 
     public String countAndSay(int n) {
-        String s = "1";
-        StringBuilder res = new StringBuilder();
-        if (n == 1) {
-            return s;
-        }
-        for (int k = 0; k < n - 1; k++) {
-            for (int i = 0, j = 0; i < s.length(); ) {
-                while (s.charAt(i) == s.charAt(j)) {
-                    ++j;
+        String res = "1";
+        for (int i = 1; i < n; i++) {
+            StringBuilder tempStr = new StringBuilder();
+            for (int j = 0; j < res.length(); j++) {
+                int count = 1;
+                while (j < res.length() - 1 && res.charAt(j) == res.charAt(j + 1)) {
+                    j++;
+                    count++;
                 }
-                res.append(j - i + '0');
-                res.append(s.charAt(i));
-                i = j;
+                tempStr.append(count).append(res.charAt(j));
             }
-            s = res.toString();
-            res = new StringBuilder();
+            res = tempStr.toString();
         }
-        return s;
+        return res;
     }
 }

@@ -8,25 +8,37 @@ public class ZigZagConversionClient {
     }
 
     public String convert(String s, int numRows) {
+        if (numRows == 0) {
+            return s;
+        }
         int length = s.length();
         int arraysNum = length / (2 * numRows - 2) + 1;
         int[][] temp = new int[arraysNum][numRows];
         for (int i = 0; i < arraysNum; i++) {
             for (int j = 0; j < numRows; j++) {
-                int modeRows = i % (numRows-1);
-                if(modeRows==0){
-                    temp[i][j] = i*numRows+
-                }else{
-
-                }
                 temp[i][j] = -1;
             }
         }
-
+        int loopLength = 2 * numRows - 2;
         for (int i = 0; i < length; i++) {
-            int modCycle = i % (2 * numRows - 2);
-            int modRows = i % numRows;
-            s.charAt()
+            int arrayIndex = getArrayIndex(i, loopLength, numRows);
+            int index = getIndex(i);
+            temp[arrayIndex][index] = s.charAt(i);
+        }
+    }
+
+    private int getIndex(int i) {
+        return 0;
+    }
+
+    private int getArrayIndex(int i, int loopLength, int numRows) {
+        int indexOfLoop = (i + 1) / loopLength;
+        int beforeArrayNum = indexOfLoop * (numRows - 1);
+        int indexInLoop = (i + 1) % loopLength;
+        if (indexInLoop <= numRows) {
+            return 1 + beforeArrayNum;
+        } else {
+            return indexInLoop - numRows + beforeArrayNum;
         }
     }
 }

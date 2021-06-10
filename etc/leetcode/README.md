@@ -8,6 +8,7 @@ Talk is cheap show me the code.
 | 3 | [Longest Substring Without Repeating Characters](http://www.henryxi.com/longest-substring-without-repeating-characters)   |Medium|
 | 4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
 | 5 | [Longest Palindromic Substring](http://www.henryxi.com/longest-palindromic-substring)   |Medium|
+| 6 | [ZigZag Conversion](http://www.henryxi.com/zigzag-conversion)   |Medium|
 | 7 | [Reverse Integer](http://www.henryxi.com/reverse-integer/)   |Easy|
 | 8 | [String to Integer (atoi)](http://www.henryxi.com/string-to-integer-atoi/)   |Medium|
 | 9 | [Palindrome Number](http://www.henryxi.com/palindrome-number/)   |Easy|
@@ -89,7 +90,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|6|
 |62|
 |58|
 |55|

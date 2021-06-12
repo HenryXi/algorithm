@@ -41,6 +41,7 @@ Talk is cheap show me the code.
 | 46 | [Permutations](http://www.henryxi.com/permutations/)   |Medium|
 | 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
 | 53 | [Maximum Subarray](http://www.henryxi.com/maximum-subarray/)   |Easy|
+| 55 | [Jump Game](http://www.henryxi.com/jump-game/)   |Medium|
 | 58 | [Length of Last Word](http://www.henryxi.com/length-of-last-word/)   |Easy|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
 | 62 | [Unique Paths](http://www.henryxi.com/unique-paths)   |Medium|
@@ -92,7 +93,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|55|
 |101|
 |56|
 |215|

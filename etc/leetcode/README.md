@@ -94,7 +94,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|101|
 |56|
 |215|
 |136|

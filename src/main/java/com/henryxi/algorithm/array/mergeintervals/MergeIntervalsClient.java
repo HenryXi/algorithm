@@ -1,81 +1,55 @@
 package com.henryxi.algorithm.array.mergeintervals;
 
-import java.util.Stack;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.LinkedList;
 
 public class MergeIntervalsClient {
     public static void main(String[] args) {
         int[][] arrays = new int[][]{{1, 3}, {8, 10}, {15, 18}, {2, 6}};
-        arrays = merge(arrays);
+        MergeIntervalsClient client = new MergeIntervalsClient();
+        arrays = client.ownMerge(arrays);
         for (int[] array : arrays) {
             System.out.println(array[0] + "," + array[1]);
         }
     }
 
-    public static int[][] merge(int[][] intervals) {
-//        quickSort(intervals, 0, intervals.length - 1);
-        Stack<int[]> stack = new Stack<>();
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        LinkedList<int[]> merged = new LinkedList<>();
         for (int[] array : intervals) {
-            if (stack.isEmpty()) {
-                stack.push(array);
-                continue;
-            }
-            int[] cur = stack.pop();
-            if (cur[1] > array[0]) {
-                cur[1] = array[1];
-                stack.push(cur);
+            if (merged.isEmpty() || merged.getLast()[1] < array[0]) {
+                merged.add(array);
             } else {
-                stack.push(cur);
-                stack.push(array);
+                merged.getLast()[1] = Math.max(array[1], merged.getLast()[1]);
             }
         }
-        int[][] res = new int[stack.size()][2];
-        for (int i = stack.size() - 1; i >= 0; i--) {
-            if (stack.isEmpty()) {
-                break;
-            }
-            int[] last = stack.pop();
-            res[i] = last;
-        }
-        return res;
+        return merged.toArray(new int[merged.size()][]);
     }
-
-    private static void sort(int[][] intervals) {
-        for (int i = 0; i < intervals.length; i++) {
-            for (int j = i + 1; j < intervals.length; j++) {
-                if (intervals[i][0] > intervals[j][0]) {
-                    int[] temp = intervals[i];
-                    intervals[i] = intervals[j];
-                    intervals[j] = temp;
-                }
+//todo not finish my own merge method
+    public int[][] ownMerge(int[][] intervals) {
+        int begin = intervals[0][0];
+        int end = intervals[0][1];
+        for (int[] array : intervals) {
+            begin = Math.min(begin, array[0]);
+            end = Math.max(end, array[1]);
+        }
+        int[] temp = new int[end + 1];
+        for (int[] array : intervals) {
+            for (int i = array[0]; i <= array[1]; i++) {
+                temp[i]++;
             }
         }
-    }
-
-    //TODO not finish(I can't write quick sort now!)
-    private static void quickSort(int[][] intervals, int p1, int p2) {
-        int begin = p1;
-        int end = p2;
-        int flag = intervals[p1][0];
-        if (p1 < p2) {
-            while (true) {
-                while (intervals[++p1][0] < flag && p1 < end) ;
-                while (intervals[--p2][0] > flag && p2 > begin);
-                if (p1 >= p2) {
-                    break;
-                }
-                swap(intervals, p1, p2);
+        LinkedList<int[]> list = new LinkedList<>();
+        for (int i = 0; i < temp.length; i++) {
+            if ((temp[i] > 0) && (i == 0 || temp[i - 1] == 0)) {
+                int[] arr = new int[2];
+                arr[0] = i;
+                list.add(arr);
+            } else if (temp[i] == 0 && (i == temp.length - 1 || temp[i - 1] == 0)) {
+                list.getLast()[1] = i;
             }
-            quickSort(intervals, begin, p1-1);
-            quickSort(intervals, p2+1, end);
         }
-    }
-
-    private static void swap(int[][] intervals, int p1, int p2) {
-        if (intervals[p1][0] == intervals[p2][0]) {
-            return;
-        }
-        int[] temp = intervals[p1];
-        intervals[p1] = intervals[p2];
-        intervals[p2] = temp;
+        return intervals;
     }
 }

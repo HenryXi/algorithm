@@ -6,9 +6,9 @@ import java.util.LinkedList;
 
 public class MergeIntervalsClient {
     public static void main(String[] args) {
-        int[][] arrays = new int[][]{{1, 3}, {8, 10}, {15, 18}, {2, 6}};
+        int[][] arrays = new int[][]{{1,4},{5,6}};
         MergeIntervalsClient client = new MergeIntervalsClient();
-        arrays = client.ownMerge(arrays);
+        arrays = client.merge(arrays);
         for (int[] array : arrays) {
             System.out.println(array[0] + "," + array[1]);
         }
@@ -25,31 +25,5 @@ public class MergeIntervalsClient {
             }
         }
         return merged.toArray(new int[merged.size()][]);
-    }
-//todo not finish my own merge method
-    public int[][] ownMerge(int[][] intervals) {
-        int begin = intervals[0][0];
-        int end = intervals[0][1];
-        for (int[] array : intervals) {
-            begin = Math.min(begin, array[0]);
-            end = Math.max(end, array[1]);
-        }
-        int[] temp = new int[end + 1];
-        for (int[] array : intervals) {
-            for (int i = array[0]; i <= array[1]; i++) {
-                temp[i]++;
-            }
-        }
-        LinkedList<int[]> list = new LinkedList<>();
-        for (int i = 0; i < temp.length; i++) {
-            if ((temp[i] > 0) && (i == 0 || temp[i - 1] == 0)) {
-                int[] arr = new int[2];
-                arr[0] = i;
-                list.add(arr);
-            } else if (temp[i] == 0 && (i == temp.length - 1 || temp[i - 1] == 0)) {
-                list.getLast()[1] = i;
-            }
-        }
-        return intervals;
     }
 }

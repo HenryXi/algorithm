@@ -13,7 +13,7 @@ public class QuickSort3 extends AbstractSort {
         end = System.nanoTime();
     }
 
-    private void quicksort_3(int number[], int left, int right) {
+    private void quicksort_3(int[] number, int left, int right) {
         int q;
         if (left < right) {
             q = partition(number, left, right);
@@ -22,7 +22,7 @@ public class QuickSort3 extends AbstractSort {
         }
     }
 
-    private int partition(int number[], int left, int right) {
+    private int partition(int[] number, int left, int right) {
         int i, j, s, temp;
         s = number[right];
         i = left - 1;

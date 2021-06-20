@@ -12,7 +12,7 @@ public class ReverseNodesInKGroupClient {
         l1.next.next.next.next = new ListNode(5);
         l1.next.next.next.next.next = new ListNode(6);
         l1.next.next.next.next.next.next = new ListNode(7);
-        ListNode listNode = reverseKGroup(l1, 3);
+        ListNode listNode = myReverseKGroup(l1, 3);
         while (listNode != null) {
             System.out.println(listNode.val);
             listNode = listNode.next;
@@ -44,24 +44,31 @@ public class ReverseNodesInKGroupClient {
     }
 
     public static ListNode myReverseKGroup(ListNode head, int k) {
-        ListNode current = head;
-        ListNode pre = new ListNode(0);
-        ListNode next;
         int length = 0;
-        while (head != null) {
+        ListNode dummy = new ListNode(0);
+        ListNode pre = dummy;
+        ListNode cur = head;
+        ListNode next;
+        dummy.next = head;
+        while (true) {
             head = head.next;
             length++;
+            if (head == null) {
+                break;
+            }
         }
+
         for (int i = 0; i < length / k; i++) {
             for (int j = 0; j < k - 1; j++) {
-                next = current.next;
-                current.next = pre;
-                pre = current;
-                current = next;
+                next = cur.next;
+                cur.next = next.next;
+                next.next = pre.next;
+                pre.next = next;
             }
-
+            pre = cur;
+            cur = pre.next;
         }
-        return null;
+        return dummy.next;
     }
 }
 

@@ -25,7 +25,7 @@ Talk is cheap show me the code.
 | 22 | [Generate Parentheses](http://www.henryxi.com/generate-parentheses/)   |Medium|
 | 23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|
 | 24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
-| 25 | Reverse Nodes in k-Group   |Hard|
+| 25 | [Reverse Nodes in k-Group](http://www.henryxi.com/reverse-nodes-in-k-group)   |Hard|
 | 26 | [Remove Duplicates from Sorted Array](http://www.henryxi.com/remove-duplicates-from-sorted-array)   |Easy|
 | 27 | [Remove Element](http://www.henryxi.com/remove-element)   |Easy|
 | 28 | [Implement strStr()](http://www.henryxi.com/implement-strstr)   |Easy|
@@ -99,7 +99,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|25|
 |64|
 |92|
 |200|

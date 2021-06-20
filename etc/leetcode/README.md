@@ -46,6 +46,7 @@ Talk is cheap show me the code.
 | 58 | [Length of Last Word](http://www.henryxi.com/length-of-last-word/)   |Easy|
 | 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
 | 62 | [Unique Paths](http://www.henryxi.com/unique-paths)   |Medium|
+| 64 | [Minimum Path Sum](http://www.henryxi.com/minimum-path-sum/)   |Medium|
 | 66 | [Plus One](http://www.henryxi.com/plus-one/)   |Easy|
 | 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
 | 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
@@ -99,7 +100,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|64|
 |92|
 |200|
 |54|

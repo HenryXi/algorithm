@@ -73,6 +73,7 @@ Talk is cheap show me the code.
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
 | 169 | [Majority Element](http://www.henryxi.com/majority-element/)   |Easy|
 | 198 | [House Robber](http://www.henryxi.com/house-robber/)   |Medium|
+| 200 | [Number of Islands](http://www.henryxi.com/number-of-islands/)   |Medium|
 | 203 | [Remove Linked List Elements](http://www.henryxi.com/remove-linked-list-elements)   |Easy|
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|
 | 215 | [Kth Largest Element in an Array](http://www.henryxi.com/kth-largest-element-in-an-array)   |Medium|
@@ -100,8 +101,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|92|
-|200|
 |54|
 |61|
 |23|

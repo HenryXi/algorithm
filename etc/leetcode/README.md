@@ -50,6 +50,7 @@ Talk is cheap show me the code.
 | 64 | [Minimum Path Sum](http://www.henryxi.com/minimum-path-sum/)   |Medium|
 | 66 | [Plus One](http://www.henryxi.com/plus-one/)   |Easy|
 | 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
+| 78 | [Subsets](http://www.henryxi.com/subsets/)   |Medium|
 | 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
 | 83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
 | 86 | [Partition List](http://www.henryxi.com/partition-list)   |Medium|
@@ -102,9 +103,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|61|
-|23|
-|78|
 |剑指 Offer 57 - II|
 |剑指 Offer 04|
 |234|

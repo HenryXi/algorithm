@@ -1,5 +1,5 @@
 package com.henryxi.algorithm.array.shuzuzhongzhongfudeshuzilcof;
-
+//todo delete this blog in db and rename the title
 public class FindRepeatNumberClient {
     public static void main(String[] args) {
         int[] array = new int[]{2, 3, 1, 0, 2, 5, 3};

@@ -97,6 +97,7 @@ Talk is cheap show me the code.
 | 1290 | [Convert Binary Number in a Linked List to Integer](http://www.henryxi.com/convert-binary-number-in-a-linked-list-to-integer)   |Easy|
 | 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
 | Offer 03 | [Find Repeat Number](http://www.henryxi/find-repeat-number/)   |Easy|
+| Offer 04 | [Find Number In 2D Array](http://www.henryxi/find-number-in-2d-array/)   |Easy|
 | Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
 | Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|
 
@@ -104,7 +105,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|剑指 Offer 04|
 |剑指 Offer 06|
 |125|
 |300|

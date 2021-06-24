@@ -98,13 +98,12 @@ Talk is cheap show me the code.
 | 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
 | Offer 03 | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)   |Easy|
 | Offer 22 | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)   |Easy|
-| Offer 57-II | [和为s的连续正数序列](http://www.henryxi.com/find-continuous-sequence)   |Easy|
+| Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|
 
 
 TODO list
 | No.       | 
 | -------------:|
-|剑指 Offer 57 - II|
 |剑指 Offer 04|
 |234|
 |剑指 Offer 06|

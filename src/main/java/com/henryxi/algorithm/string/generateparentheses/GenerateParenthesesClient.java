@@ -4,12 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateParenthesesClient {
+    private List<String> res = new ArrayList<>();
+
     public static void main(String[] args) {
         GenerateParenthesesClient client = new GenerateParenthesesClient();
         System.out.println(client.generateParenthesis(3));
     }
-
-    private List<String> res = new ArrayList<>();
 
     public List<String> generateParenthesis(int n) {
         dfs("", n, 0, 0);

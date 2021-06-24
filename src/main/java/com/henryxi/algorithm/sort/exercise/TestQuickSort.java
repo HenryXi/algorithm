@@ -19,13 +19,13 @@ public class TestQuickSort {
         int flag = intervals[p1];
         if (p1 < p2) {
             while (true) {
-                while (intervals[p1] <=flag && p1 < end) {
+                while (intervals[p1] <= flag && p1 < end) {
                     p1++;
                 }
                 while (intervals[p2] > flag && p2 > begin) {
                     p2--;
                 }
-                if (p2<=p1) {
+                if (p2 <= p1) {
                     break;
                 }
                 swap(intervals, p1, p2);

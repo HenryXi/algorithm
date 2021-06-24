@@ -1,4 +1,5 @@
-package com.henryxi.algorithm.array.shuzuzhongzhongfudeshuzilcof;
+package com.henryxi.algorithm.array.findrepeatnumber;
+
 //todo delete this blog in db and rename the title
 public class FindRepeatNumberClient {
     public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class FindRepeatNumberClient {
 
     public static int findRepeatNumber(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
-            while(nums[i]!=i){
+            while (nums[i] != i) {
                 if (nums[nums[i]] != nums[i]) {
                     int temp = nums[i];
                     nums[i] = nums[temp];

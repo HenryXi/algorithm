@@ -26,14 +26,14 @@ public class ThreeSumClosestClient {
                 if (gap == 0) {
                     return sum;
                 } else if (gap > 0) {
-                    if(gap<minGap){
-                        minGap=gap;
+                    if (gap < minGap) {
+                        minGap = gap;
                         isBiggerThanZero = true;
                     }
                     R--;
                 } else {
-                    if(-gap<minGap){
-                        minGap=-gap;
+                    if (-gap < minGap) {
+                        minGap = -gap;
                         isBiggerThanZero = false;
                     }
                     L++;

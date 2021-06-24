@@ -22,11 +22,11 @@ public class LetterCombinationsOfAPhoneNumberClient {
             List<String> curStr = map.get(c);
             if (res.size() == 0) {
                 res.addAll(curStr);
-            }else{
+            } else {
                 List<String> newRes = new LinkedList<>();
-                for(String existCharacter:res){
-                    for(String cur:curStr){
-                        newRes.add(existCharacter+cur);
+                for (String existCharacter : res) {
+                    for (String cur : curStr) {
+                        newRes.add(existCharacter + cur);
                         res = newRes;
                     }
                 }

@@ -22,11 +22,11 @@ public class StringToIntegerAtoiClient {
                 continue;
             }
             if (chars[i] >= '0' && chars[i] <= '9') {
-                res = res * 10 + (chars[i]-'0');
-            }else{
+                res = res * 10 + (chars[i] - '0');
+            } else {
                 break;
             }
-            if (res > 2147483647L && flag==1) {
+            if (res > 2147483647L && flag == 1) {
                 return Integer.MAX_VALUE;
             }
             if (res >= 2147483648L) {

@@ -34,6 +34,6 @@ public class LongestPalindromicSubstringClient {
                 startIndex = left + 1;
             }
         }
-        return s.substring(startIndex, startIndex + maxLength );
+        return s.substring(startIndex, startIndex + maxLength);
     }
 }

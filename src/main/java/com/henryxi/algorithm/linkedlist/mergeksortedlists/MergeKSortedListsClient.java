@@ -25,26 +25,27 @@ public class MergeKSortedListsClient {
 
     /**
      * 简单循环是O(n)  折半递归是O(nlogn)
+     *
      * @param lists
      * @return
      */
-    public static ListNode mergeKLists(ListNode[] lists){
-        if(lists.length == 0){
+    public static ListNode mergeKLists(ListNode[] lists) {
+        if (lists.length == 0) {
             return null;
         }
-        if(lists.length == 1){
+        if (lists.length == 1) {
             return lists[0];
         }
-        if(lists.length == 2){
-            return mergeList(lists[0],lists[1]);
+        if (lists.length == 2) {
+            return mergeList(lists[0], lists[1]);
         }
-        int mid = lists.length/2;
+        int mid = lists.length / 2;
         ListNode[] l1 = new ListNode[mid];
-        for(int i = 0; i < mid; i++){
+        for (int i = 0; i < mid; i++) {
             l1[i] = lists[i];
         }
-        ListNode[] l2 = new ListNode[lists.length-mid];
-        for(int i = mid,j=0; i < lists.length; i++,j++){
+        ListNode[] l2 = new ListNode[lists.length - mid];
+        for (int i = mid, j = 0; i < lists.length; i++, j++) {
             l2[j] = lists[i];
         }
 

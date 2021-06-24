@@ -4,8 +4,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class RecoverBinarySearchTreeClient {
+    //todo not finish
+    static TreeNode t1, t2, pre;
+
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1, new TreeNode(3, null,new TreeNode(2)), null);
+        TreeNode root = new TreeNode(1, new TreeNode(3, null, new TreeNode(2)), null);
         recoverTree(root);
         printTree(root);
     }
@@ -27,16 +30,15 @@ public class RecoverBinarySearchTreeClient {
         }
     }
 
-    //todo not finish
-    static TreeNode t1, t2, pre;
     public static void recoverTree(TreeNode root) {
         inorder(root);
         int temp = t1.val;
         t1.val = t2.val;
         t2.val = temp;
     }
-    public static void inorder(TreeNode root){
-        if (root == null) return ;
+
+    public static void inorder(TreeNode root) {
+        if (root == null) return;
         inorder(root.left);
         if (pre != null && pre.val > root.val) {
             if (t1 == null) {

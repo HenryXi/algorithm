@@ -8,7 +8,7 @@ import java.util.List;
 
 public class FourSumClient {
     public static void main(String[] args) {
-        int[] nums = new int[]{1,-2,-5,-4,-3,3,3,5};
+        int[] nums = new int[]{1, -2, -5, -4, -3, 3, 3, 5};
         System.out.println(fourSum(nums, -11));
     }
 

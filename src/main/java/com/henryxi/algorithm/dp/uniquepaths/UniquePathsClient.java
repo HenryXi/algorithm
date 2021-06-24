@@ -3,7 +3,7 @@ package com.henryxi.algorithm.dp.uniquepaths;
 public class UniquePathsClient {
     public static void main(String[] args) {
         UniquePathsClient client = new UniquePathsClient();
-        System.out.println(client.uniquePaths(3,7));
+        System.out.println(client.uniquePaths(3, 7));
     }
 
     public int uniquePaths(int m, int n) {

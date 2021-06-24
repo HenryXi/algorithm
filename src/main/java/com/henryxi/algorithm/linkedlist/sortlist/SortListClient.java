@@ -25,7 +25,7 @@ public class SortListClient {
             slow = slow.next;
         }
         ListNode rightL = slow.next;
-        slow.next=null;
+        slow.next = null;
         ListNode left = sortList(head);
         ListNode right = sortList(rightL);
         return merge(left, right);

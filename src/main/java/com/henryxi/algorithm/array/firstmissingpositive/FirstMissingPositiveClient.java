@@ -9,7 +9,7 @@ public class FirstMissingPositiveClient {
     public static int firstMissingPositive(int[] nums) {
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != i + 1) {
-                while (nums[i] > 0 && nums[i] < nums.length && nums[nums[i]-1] != nums[i]) {
+                while (nums[i] > 0 && nums[i] < nums.length && nums[nums[i] - 1] != nums[i]) {
                     swap(nums, nums[i] - 1, i);
                 }
             }

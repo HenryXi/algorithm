@@ -96,7 +96,7 @@ public class MaximumSwap {
         int minIndex = 0;
         for (int i = 0; i < flagIndex; i++) {
             if (nums[maxIndex] > nums[i]) {
-                minIndex=i;
+                minIndex = i;
                 break;
             }
         }

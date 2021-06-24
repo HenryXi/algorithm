@@ -21,20 +21,20 @@ public class PartitionListClient {
         ListNode bigger = new ListNode(0);
         ListNode biggerTail = bigger;
         while (head != null) {
-            if(head.val<x){
-                smallTail.next=head;
-                head=head.next;
-                smallTail=smallTail.next;
-                smallTail.next=null;
-            }else{
-                biggerTail.next=head;
-                head=head.next;
-                biggerTail=biggerTail.next;
-                biggerTail.next=null;
+            if (head.val < x) {
+                smallTail.next = head;
+                head = head.next;
+                smallTail = smallTail.next;
+                smallTail.next = null;
+            } else {
+                biggerTail.next = head;
+                head = head.next;
+                biggerTail = biggerTail.next;
+                biggerTail.next = null;
             }
 
         }
-        smallTail.next=bigger.next;
+        smallTail.next = bigger.next;
         return small.next;
     }
 }

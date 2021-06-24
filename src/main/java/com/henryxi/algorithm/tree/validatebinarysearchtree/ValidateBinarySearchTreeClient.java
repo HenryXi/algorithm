@@ -6,6 +6,8 @@ import java.util.List;
 public class ValidateBinarySearchTreeClient {
 
 
+    static List<Integer> ans = new ArrayList<>();
+
     public static void main(String[] args) {
         TreeNode root = new TreeNode(0);
         root.left = new TreeNode(-1);
@@ -26,8 +28,6 @@ public class ValidateBinarySearchTreeClient {
         }
         return isValidBST(currentNode.left, low, currentNode.val) && isValidBST(currentNode.right, currentNode.val, high);
     }
-
-    static List<Integer> ans = new ArrayList<>();
 
     public static boolean isMyValidBST(TreeNode root) {
         ans.clear();

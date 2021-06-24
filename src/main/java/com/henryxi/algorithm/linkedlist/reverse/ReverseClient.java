@@ -26,8 +26,8 @@ public class ReverseClient {
             pre = current;
             current = next;
         }
-        head.next=null;
-        head=pre;
+        head.next = null;
+        head = pre;
         return head;
     }
 

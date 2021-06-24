@@ -3,7 +3,7 @@ package com.henryxi.algorithm.dfs.numberofislands;
 public class NumberOfIslandsClient {
     public static void main(String[] args) {
         NumberOfIslandsClient client = new NumberOfIslandsClient();
-        char[][] grid = new char[][]{{'1','1','1','1','0'},{'1','1','0','1','0'},{'1','1','0','0','0'},{'0','0','0','0','0'}};
+        char[][] grid = new char[][]{{'1', '1', '1', '1', '0'}, {'1', '1', '0', '1', '0'}, {'1', '1', '0', '0', '0'}, {'0', '0', '0', '0', '0'}};
         System.out.println(client.numIslands(grid));
     }
 

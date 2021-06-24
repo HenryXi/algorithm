@@ -16,6 +16,20 @@ package com.henryxi.algorithm.interview;
 
 import java.util.*;
 
+interface NestedInteger {
+
+    // @return true if this NestedInteger holds a single integer, rather than a nested list.
+    public boolean isInteger();
+
+    // @return the single integer that this NestedInteger holds, if it holds a single integer
+    // Return null if this NestedInteger holds a nested list
+    public Integer getInteger();
+
+    // @return the nested list that this NestedInteger holds, if it holds a nested list
+    // Return null if this NestedInteger holds a single integer
+    public List<NestedInteger> getList();
+}
+
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -44,16 +58,16 @@ public class FlattenNestedListIterator implements Iterator<Integer> {
     public FlattenNestedListIterator(List<NestedInteger> nestedList) {
         this.iterator = nestedList.iterator();
         while (iterator.hasNext() || !queue.isEmpty()) {
-            if(iterator.hasNext()){
+            if (iterator.hasNext()) {
                 NestedInteger nestedInteger = iterator.next();
-                if(nestedInteger.isInteger()){
+                if (nestedInteger.isInteger()) {
                     allInteger.add(nestedInteger.getInteger());
-                }else{
+                } else {
                     queue.add(nestedInteger.getList().iterator());
                 }
-            }else{
+            } else {
                 char a = 'd';
-                Character character=a;
+                Character character = a;
             }
         }
     }
@@ -93,20 +107,6 @@ public class FlattenNestedListIterator implements Iterator<Integer> {
 //        }
         return false;
     }
-}
-
-interface NestedInteger {
-
-    // @return true if this NestedInteger holds a single integer, rather than a nested list.
-    public boolean isInteger();
-
-    // @return the single integer that this NestedInteger holds, if it holds a single integer
-    // Return null if this NestedInteger holds a nested list
-    public Integer getInteger();
-
-    // @return the nested list that this NestedInteger holds, if it holds a nested list
-    // Return null if this NestedInteger holds a single integer
-    public List<NestedInteger> getList();
 }
 
 

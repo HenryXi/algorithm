@@ -5,6 +5,7 @@ public class ShakeSort extends AbstractSort {
         ShakeSort shakeSort = new ShakeSort();
         shakeSort.printInfo();
     }
+
     @Override
     void sort() {
         int i, temp, left = 0, right = NUMBERS_COUNT - 1, shift = 0;

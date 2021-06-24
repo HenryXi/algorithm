@@ -1,7 +1,5 @@
 package com.henryxi.algorithm.linkedlist.designlinkedlist;
 
-import java.util.LinkedList;
-
 public class DesignLinkedListClient {
     public static void main(String[] args) {
         MyLinkedList linkedList = new MyLinkedList();
@@ -374,16 +372,6 @@ class MyLinkedList {
         size--;
     }
 
-    class ListNode {
-        int val;
-        ListNode pre;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     public String toString() {
         String res = "[";
         ListNode cur = head;
@@ -394,6 +382,16 @@ class MyLinkedList {
         res = res + "]";
         res = res.replace(", ]", "]");
         return res;
+    }
+
+    class ListNode {
+        int val;
+        ListNode pre;
+        ListNode next;
+
+        public ListNode(int val) {
+            this.val = val;
+        }
     }
 }
 

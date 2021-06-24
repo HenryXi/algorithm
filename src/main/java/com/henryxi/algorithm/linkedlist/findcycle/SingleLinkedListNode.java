@@ -4,12 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SingleLinkedListNode {
+    int value;
+    SingleLinkedListNode next;
     public SingleLinkedListNode(int value) {
         this.value = value;
     }
-
-    int value;
-    SingleLinkedListNode next;
 
     public static List<SingleLinkedListNode> initSingleLinkedList(int length) {
         List<SingleLinkedListNode> listNodes = new ArrayList<>();

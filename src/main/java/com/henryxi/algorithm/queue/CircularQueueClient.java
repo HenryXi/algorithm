@@ -89,65 +89,81 @@ public class CircularQueueClient {
         }
     }
 }
-class MyCircularQueue{
+
+class MyCircularQueue {
     private Integer[] queue;
     private int head;
     private int tail;
-    /** Initialize your data structure here. Set the size of the queue to be k. */
+
+    /**
+     * Initialize your data structure here. Set the size of the queue to be k.
+     */
     public MyCircularQueue(int k) {
-        queue=new Integer[k];
-        head=0;
-        tail =0;
+        queue = new Integer[k];
+        head = 0;
+        tail = 0;
     }
 
-    /** Insert an element into the circular queue. Return true if the operation is successful. */
+    /**
+     * Insert an element into the circular queue. Return true if the operation is successful.
+     */
     public boolean enQueue(int value) {
-        if(isFull()){
+        if (isFull()) {
             return false;
         }
-        queue[tail]=value;
-        tail = (tail+1)%queue.length;
+        queue[tail] = value;
+        tail = (tail + 1) % queue.length;
         return true;
     }
 
-    /** Delete an element from the circular queue. Return true if the operation is successful. */
+    /**
+     * Delete an element from the circular queue. Return true if the operation is successful.
+     */
     public boolean deQueue() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return false;
         }
-        queue[head]=null;
-        head=(head+1)%queue.length;
+        queue[head] = null;
+        head = (head + 1) % queue.length;
         return true;
     }
 
-    /** Get the front item from the queue. */
+    /**
+     * Get the front item from the queue.
+     */
     public int Front() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return -1;
         }
         return queue[head];
     }
 
-    /** Get the last item from the queue. */
+    /**
+     * Get the last item from the queue.
+     */
     public int Rear() {
-        if(isEmpty()){
+        if (isEmpty()) {
             return -1;
         }
-        int index = (tail+queue.length-1)%queue.length;
+        int index = (tail + queue.length - 1) % queue.length;
         return queue[index];
     }
 
-    /** Checks whether the circular queue is empty or not. */
+    /**
+     * Checks whether the circular queue is empty or not.
+     */
     public boolean isEmpty() {
-        if(head==tail&&queue[head]==null){
+        if (head == tail && queue[head] == null) {
             return true;
         }
         return false;
     }
 
-    /** Checks whether the circular queue is full or not. */
+    /**
+     * Checks whether the circular queue is full or not.
+     */
     public boolean isFull() {
-        if(head==tail&&queue[head]!=null){
+        if (head == tail && queue[head] != null) {
             return true;
         }
         return false;

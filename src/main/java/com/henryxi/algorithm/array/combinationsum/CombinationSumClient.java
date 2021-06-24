@@ -6,13 +6,13 @@ import java.util.List;
 
 //todo not finish
 public class CombinationSumClient {
+    private List<List<Integer>> res = new ArrayList<>();
+
     public static void main(String[] args) {
         int[] nums = new int[]{2, 3, 5};
         CombinationSumClient client = new CombinationSumClient();
         System.out.println(client.combinationSum(nums, 8));
     }
-
-    private List<List<Integer>> res = new ArrayList<>();
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         Arrays.sort(candidates);

@@ -16,7 +16,7 @@ public class RemoveDuplicatesFromSortedListClient {
 
     public static ListNode deleteDuplicates(ListNode head) {
         ListNode cursor = head;
-        while (cursor!=null && cursor.next != null) {
+        while (cursor != null && cursor.next != null) {
             if (cursor.val == cursor.next.val) {
                 cursor.next = cursor.next.next;
             } else {

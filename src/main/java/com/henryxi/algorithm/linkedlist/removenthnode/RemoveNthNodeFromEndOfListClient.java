@@ -19,14 +19,14 @@ public class RemoveNthNodeFromEndOfListClient {
         for (int i = 0; i < n; i++) {
             cursor1 = cursor1.next;
         }
-        if(cursor1==null){
+        if (cursor1 == null) {
             return cursor2.next;
         }
         while (cursor1.next != null) {
-            cursor2=cursor2.next;
-            cursor1=cursor1.next;
+            cursor2 = cursor2.next;
+            cursor1 = cursor1.next;
         }
-        cursor2.next=cursor2.next.next;
+        cursor2.next = cursor2.next.next;
 
         return head;
     }

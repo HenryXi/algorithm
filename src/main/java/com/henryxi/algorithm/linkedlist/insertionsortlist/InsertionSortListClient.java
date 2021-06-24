@@ -69,7 +69,7 @@ public class InsertionSortListClient {
             }
             ListNode curr = head.next;
             head.next = curr.next;
-            curr.next= pre.next;
+            curr.next = pre.next;
             pre.next = curr;
 
         }

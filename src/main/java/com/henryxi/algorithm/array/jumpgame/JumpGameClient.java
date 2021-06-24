@@ -3,7 +3,7 @@ package com.henryxi.algorithm.array.jumpgame;
 public class JumpGameClient {
     public static void main(String[] args) {
         JumpGameClient client = new JumpGameClient();
-        int[] array = new int[]{2,3,1,1,4};
+        int[] array = new int[]{2, 3, 1, 1, 4};
         System.out.println(client.canJump(array));
     }
 

@@ -6,7 +6,7 @@ import java.util.LinkedList;
 
 public class MergeIntervalsClient {
     public static void main(String[] args) {
-        int[][] arrays = new int[][]{{1,4},{5,6}};
+        int[][] arrays = new int[][]{{1, 4}, {5, 6}};
         MergeIntervalsClient client = new MergeIntervalsClient();
         arrays = client.merge(arrays);
         for (int[] array : arrays) {

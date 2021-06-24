@@ -2,7 +2,7 @@ package com.henryxi.algorithm.array.maximumsubarray;
 
 public class MaximumSubarrayClient {
     public static void main(String[] args) {
-        int[] arrays = {-2,1,-3,4,-1,2,1,-5,4};
+        int[] arrays = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         System.out.println(maxSubArray(arrays));
     }
 

@@ -13,9 +13,9 @@ public class BucketSort2 extends AbstractSort {
         for (int i : numbersArray) {
             int index = i * NUMBERS_COUNT / (99 + 1);
             Item item = items[index];
-            if (item.isEmpty()){
+            if (item.isEmpty()) {
                 item.setValue(i);
-            }else{
+            } else {
 
             }
         }

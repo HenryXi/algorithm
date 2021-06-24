@@ -2,7 +2,7 @@ package com.henryxi.algorithm.array.rotateimage;
 
 public class RotateImageClient {
     public static void main(String[] args) {
-        int[][] array = new int[][]{{1,2,3},{4,5,6},{7,8,9}};
+        int[][] array = new int[][]{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         rotate(array);
         System.out.println(array);
     }
@@ -11,15 +11,15 @@ public class RotateImageClient {
         int n = matrix.length;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if(i>j){
-                    swap(matrix,i,j,j,i);
+                if (i > j) {
+                    swap(matrix, i, j, j, i);
                 }
             }
         }
 
         for (int j = 0; j < n / 2; j++) {
             for (int i = 0; i < n; i++) {
-                swap(matrix,i,j,i,n-j-1);
+                swap(matrix, i, j, i, n - j - 1);
             }
         }
     }

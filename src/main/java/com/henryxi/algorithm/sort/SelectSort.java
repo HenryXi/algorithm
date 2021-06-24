@@ -1,6 +1,11 @@
 package com.henryxi.algorithm.sort;
 
 public class SelectSort extends AbstractSort {
+    public static void main(String[] args) {
+        SelectSort sort = new SelectSort();
+        sort.printInfo();
+    }
+
     @Override
     void sort() {
         int i, j, m, temp;
@@ -19,10 +24,5 @@ public class SelectSort extends AbstractSort {
             }
         }
         end = System.nanoTime();
-    }
-
-    public static void main(String[] args) {
-        SelectSort sort = new SelectSort();
-        sort.printInfo();
     }
 }

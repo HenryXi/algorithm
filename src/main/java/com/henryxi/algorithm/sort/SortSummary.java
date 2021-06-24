@@ -3,6 +3,8 @@ package com.henryxi.algorithm.sort;
 public class SortSummary {
     final int MAX = 20;
     int num[] = new int[MAX];
+    int num2[] = new int[MAX]; //只用于合并排序法中
+    int num3[] = new int[MAX + MAX]; //用于存放合并排序法中被合并排序好的数组
 
     {
         System.out.print("生成的随机数组是：");
@@ -13,8 +15,6 @@ public class SortSummary {
         System.out.println();
     }
 
-    int num2[] = new int[MAX]; //只用于合并排序法中
-
     {
         System.out.print("合并排序法需要使用的数组2是：");
         for (int i = 0; i < 20; i++) {
@@ -23,8 +23,6 @@ public class SortSummary {
         }
         System.out.println();
     }
-
-    int num3[] = new int[MAX + MAX]; //用于存放合并排序法中被合并排序好的数组
 
 
     public SortSummary() {
@@ -40,6 +38,11 @@ public class SortSummary {
         mergesort(num.clone(), num2.clone(), num3);    //合并排序法
         basesort(num.clone());                        //基数排序法
         bucketsort(num.clone());
+    }
+
+    public static void main(String[] args) {
+        System.out.println("以下的测试时间仅供参考...");
+        new SortSummary();
     }
 
     public void selsort(int number[]) {
@@ -71,7 +74,6 @@ public class SortSummary {
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
-
     /*-------------------------插入排序法--------------------------------
              像是玩朴克一样，我们将牌分作两堆，每次从后面一堆的牌抽出最前端的牌，然后插入前面一堆牌的适当位置
     -----------------------------------------------------------------*/
@@ -102,7 +104,6 @@ public class SortSummary {
         System.out.println();
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
     /*-----------------------------------------冒泡排序法----------------------------------------
                     顾名思义，就是排序时，最大的元素会如同气泡一样移至右端，其利用比较相邻元素的方法，将大的元素交换至右端，
@@ -136,7 +137,6 @@ public class SortSummary {
         System.out.println();
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
     /*--------------------------shell（希尔）排序法----------------------------
      Shell首先将间隔设定为n/2，然后跳跃进行插入排序，再来将间隔n/4，跳跃进行排序动作，再来
@@ -176,7 +176,6 @@ public class SortSummary {
         System.out.println();
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
     /*---------------------Shake排序法（改良的冒泡排序法）--------------------------
                方法就在于气泡排序的双向进行，先让气泡排序由左向右进行，再来让气泡排序由右往左进行，
@@ -220,7 +219,6 @@ public class SortSummary {
         System.out.println();
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
-
 
     /*-----------------------heap排序（堆排序法--改进的选择排序）----------------------------
             利用堆积树的原理，先构造一个堆积树（看堆积树的定义，笔记本上有），然后将根节点与最后的叶子节点交换，并屏蔽掉最后一个叶子节点，
@@ -292,7 +290,6 @@ public class SortSummary {
         }
     }
 
-
     /*-----------------------快速排序法（一）---------------------------------------------
      这边所介绍的快速演算如下：将最左边的数设定为轴，并记录其值为s
      廻圈处理：
@@ -322,7 +319,6 @@ public class SortSummary {
 
     }
 
-
     public void quicksort_1(int number[], int left, int right) {
         int i, j, s, temp;
         if (left < right) {
@@ -346,7 +342,6 @@ public class SortSummary {
             quicksort_1(number, j + 1, right); // 对右边进行递回
         }
     }
-
 
     /*-----------------------快速排序法（二）---------------------------------------------
      在这个例子中，取中间的元素s作比较，同样的先得右找比s大的索引i，然后找比s小的
@@ -377,7 +372,6 @@ public class SortSummary {
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
-
     public void quicksort_2(int number[], int left, int right) {
         int i, j, s, temp;
         if (left < right) {
@@ -397,7 +391,6 @@ public class SortSummary {
             quicksort_2(number, j + 1, right); // 对右边进行递回
         }
     }
-
 
     /*-----------------------快速排序法（三）---------------------------------------------
              先说明这个快速排序法的概念，它以最右边的值s作比较的标准，将整个数列分为三个部份，
@@ -430,7 +423,6 @@ public class SortSummary {
 
     }
 
-
     public int partition(int number[], int left, int right) {
         int i, j, s, temp;
         s = number[right];
@@ -448,15 +440,6 @@ public class SortSummary {
         number[right] = temp;
         return i + 1;
     }
-
-    public void quicksort_3(int number[], int left, int right) {
-        int q;
-        if (left < right) {
-            q = partition(number, left, right);
-            quicksort_3(number, left, q - 1);
-            quicksort_3(number, q + 1, right);
-        }
-    }
    
    
    
@@ -467,6 +450,15 @@ public class SortSummary {
              可以先利用其它的排序方式来处理这两笔资料，然后再将排序好的这两笔资料合并。
              合并排序法中用到了  快速排序法（三）
    --------------------------------------------------------------------------------*/
+
+    public void quicksort_3(int number[], int left, int right) {
+        int q;
+        if (left < right) {
+            q = partition(number, left, right);
+            quicksort_3(number, left, q - 1);
+            quicksort_3(number, q + 1, right);
+        }
+    }
 
     public void mergesort(int number1[], int number2[], int number3[]) {
         long start, end;
@@ -486,7 +478,6 @@ public class SortSummary {
         System.out.println("排序使用时间：" + (end - start) + " ns");
     }
 
-
     public void mergesort_merge(int number1[], int M, int number2[], int N, int number3[]) {
         int i = 0, j = 0, k = 0;
         while (i < M && j < N) {
@@ -503,7 +494,6 @@ public class SortSummary {
             number3[k++] = number2[j++];
         }
     }
-
 
     /*-----------------------基数排序法---------------------------------------------
              基数排序的方式可以采用LSD（Least sgnificant digital）或MSD（Most sgnificant digital），
@@ -582,21 +572,16 @@ public class SortSummary {
         end = System.nanoTime();
         System.out.println("-----------------桶排序法------------------");
         System.out.print("排序后是:");
-        for(int i=0;i<sorted.length;i++){
-            if(sorted[i]!=0){
-                do{
+        for (int i = 0; i < sorted.length; i++) {
+            if (sorted[i] != 0) {
+                do {
                     System.out.print(i + " ");
                     sorted[i]--;
-                }while (sorted[i]>0);
+                } while (sorted[i] > 0);
             }
         }
         System.out.println();
         System.out.println("排序使用时间：" + (end - start) + " ns");
-    }
-
-    public static void main(String[] args) {
-        System.out.println("以下的测试时间仅供参考...");
-        new SortSummary();
     }
 
 }

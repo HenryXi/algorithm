@@ -17,7 +17,7 @@ public class CopyListWithRandomPointerClient {
         node.next.next.next.next.random = node;
         Node newNode = copyRandomList(node);
         while (newNode != null) {
-            System.out.println(newNode.val + " " + (newNode.random==null?"null":newNode.random.val));
+            System.out.println(newNode.val + " " + (newNode.random == null ? "null" : newNode.random.val));
             newNode = newNode.next;
         }
     }

@@ -6,13 +6,13 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class CombinationSumIIClient {
+    private List<List<Integer>> res = new LinkedList<>();
+
     public static void main(String[] args) {
         int[] nums = new int[]{10, 1, 2, 7, 6, 1, 5};
         CombinationSumIIClient client = new CombinationSumIIClient();
         System.out.println(client.combinationSum2(nums, 8));
     }
-
-    private List<List<Integer>> res = new LinkedList<>();
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         Arrays.sort(candidates);

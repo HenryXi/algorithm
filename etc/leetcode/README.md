@@ -97,7 +97,7 @@ Talk is cheap show me the code.
 | 1290 | [Convert Binary Number in a Linked List to Integer](http://www.henryxi.com/convert-binary-number-in-a-linked-list-to-integer)   |Easy|
 | 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
 | Offer 03 | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)   |Easy|
-| Offer 22 | [链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)   |Easy|
+| Offer 22 | [Get Kth From End](https://www.henryxi.com/get-kth-from-end)   |Easy|
 | Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|
 
 

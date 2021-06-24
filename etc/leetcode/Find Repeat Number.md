@@ -1,4 +1,4 @@
-# offer 03
+# Find Repeat Number
 [Problem Description](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 
 ```

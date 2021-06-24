@@ -96,7 +96,7 @@ Talk is cheap show me the code.
 | 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](http://www.henryxi.com/remove-zero-sum-consecutive-nodes-from-linked-list)   |Medium|
 | 1290 | [Convert Binary Number in a Linked List to Integer](http://www.henryxi.com/convert-binary-number-in-a-linked-list-to-integer)   |Easy|
 | 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
-| Offer 03 | [数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)   |Easy|
+| Offer 03 | [Find Repeat Number](http://www.henryxi/find-repeat-number/)   |Easy|
 | Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
 | Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|
 

@@ -65,6 +65,7 @@ Talk is cheap show me the code.
 | 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
 | 121 | [Best Time to Buy and Sell Stock](http://www.henryxi.com/best-time-to-buy-and-sell-stock)   |Easy|
 | 122 | [Best Time to Buy and Sell Stock II](http://www.henryxi.com/best-time-to-buy-and-sell-stock-ii)   |Easy|
+| 125 | [Valid Palindrome](http://www.henryxi.com/valid-palindrome/)   |Easy|
 | 136 | [Single Number](http://www.henryxi.com/single-number)   |Easy|
 | 138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
 | 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|
@@ -106,7 +107,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|125|
 |300|
 |69|
 |剑指 Offer 05|

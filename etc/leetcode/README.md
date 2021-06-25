@@ -83,6 +83,7 @@ Talk is cheap show me the code.
 | 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|
 | 215 | [Kth Largest Element in an Array](http://www.henryxi.com/kth-largest-element-in-an-array)   |Medium|
 | 225 | [Implement Stack using Queues](http://www.henryxi.com/implement-stack-using-queues)   |Easy|
+| 226 | [Invert Binary Tree](http://www.henryxi.com/invert-binary-tree/)   |Easy|
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)   |Medium|
 | 234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
@@ -112,8 +113,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|剑指 Offer 40|
-|226|
 |67|
 |75|
 |12|

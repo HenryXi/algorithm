@@ -60,6 +60,7 @@ Talk is cheap show me the code.
 | 94 | [Binary Tree Inorder Traversal](http://www.henryxi.com/binary-tree-inorder-traversal)   |Medium|
 | 96 | [Unique Binary Search Trees](http://www.henryxi.com/unique-binary-search-trees)   |Medium|
 | 98 | [Validate Binary Search Tree](http://www.henryxi.com/validate-binary-search-tree)   |Medium|
+| 100 | [Same Tree](http://www.henryxi.com/same-tree/)   |Easy|
 | 101 | [Symmetric Tree](http://www.henryxi.com/symmetric-tree)   |Easy|
 | 102 | [Binary Tree Level Order Traversal](http://www.henryxi.com/binary-tree-level-order-traversal)   |Medium|
 | 104 | [Maximum Depth of Binary Tree](http://www.henryxi.com/maximum-depth-of-binary-tree/)   |Easy|
@@ -110,8 +111,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|剑指 Offer 05|
-|100|
 |剑指 Offer 40|
 |226|
 |67|

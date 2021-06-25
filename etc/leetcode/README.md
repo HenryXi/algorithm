@@ -101,6 +101,7 @@ Talk is cheap show me the code.
 | 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
 | Offer 03 | [Find Repeat Number](http://www.henryxi/find-repeat-number/)   |Easy|
 | Offer 04 | [Find Number In 2D Array](http://www.henryxi.com/find-number-in-2d-array/)   |Easy|
+| Offer 05 | [Replace Space](http://www.henryxi.com/replace-space/)   |Easy|
 | Offer 06 | [Reverse Print](http://www.henryxi.com/reverse-print/)   |Easy|
 | Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
 | Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|

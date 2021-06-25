@@ -1,4 +1,4 @@
-package com.henryxi.algorithm.array;
+package com.henryxi.algorithm.search.binarysearch;
 
 import java.util.Random;
 

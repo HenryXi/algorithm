@@ -1,4 +1,4 @@
-package com.henryxi.algorithm.array;
+package com.henryxi.algorithm.search.binarysearch;
 
 public class BinarySearchClient {
     public static void main(String[] args) {

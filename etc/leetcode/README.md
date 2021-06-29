@@ -52,6 +52,7 @@ Talk is cheap show me the code.
 | 67 | [Add Binary](http://www.henryxi.com/add-binary/)   |Easy|
 | 69 | [Sqrt(x)](http://www.henryxi.com/sqrtx/)   |Easy|
 | 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
+| 75 | [Sort Colors](http://www.henryxi.com/sort-colors/)   |Medium|
 | 78 | [Subsets](http://www.henryxi.com/subsets/)   |Medium|
 | 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
 | 83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
@@ -114,7 +115,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|75|
 |12|
 |344|
 |剑指 Offer 58 - II|

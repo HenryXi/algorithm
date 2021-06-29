@@ -49,6 +49,7 @@ Talk is cheap show me the code.
 | 62 | [Unique Paths](http://www.henryxi.com/unique-paths)   |Medium|
 | 64 | [Minimum Path Sum](http://www.henryxi.com/minimum-path-sum/)   |Medium|
 | 66 | [Plus One](http://www.henryxi.com/plus-one/)   |Easy|
+| 67 | [Add Binary](http://www.henryxi.com/add-binary/)   |Easy|
 | 69 | [Sqrt(x)](http://www.henryxi.com/sqrtx/)   |Easy|
 | 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
 | 78 | [Subsets](http://www.henryxi.com/subsets/)   |Medium|

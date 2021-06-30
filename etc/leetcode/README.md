@@ -112,7 +112,7 @@ Talk is cheap show me the code.
 | Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
 | Offer 40 | [Get Least Numbers](http://www.henryxi.com/get-least-numbers)   |Easy|
 | Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|
-| Offer 58 - II | [Find Continuous Sequence](http://www.henryxi.com/reverse-left-words)   |Easy|
+| Offer 58-II | [Find Continuous Sequence](http://www.henryxi.com/reverse-left-words)   |Easy|
 
 
 TODO list

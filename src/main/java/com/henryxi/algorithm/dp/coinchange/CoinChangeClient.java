@@ -6,22 +6,21 @@ import java.util.Arrays;
 public class CoinChangeClient {
     public static void main(String[] args) {
         CoinChangeClient client = new CoinChangeClient();
-        System.out.println(client.coinChange(new int[]{1, 2, 5}, 11));
+        System.out.println(client.coinChange(new int[]{186, 419, 83, 408}, 6249));
     }
 
     public int coinChange(int[] coins, int amount) {
-        Arrays.sort(coins);
-        int count = 0;
-        for (int i = coins.length - 1; i >= 0; i--) {
-            if (amount == 0) {
-                return count;
+        int max = amount + 1;
+        int[] dp = new int[amount + 1];
+        Arrays.fill(dp, max);
+        dp[0] = 0;
+        for (int i = 1; i <= amount; i++) {
+            for (int j = 0; j < coins.length; j++) {
+                if (coins[j] <= i) {
+                    dp[i] = Math.min(dp[i], dp[i - coins[j]] + 1);
+                }
             }
-            if (amount < coins[i]) {
-                return -1;
-            }
-            count = count + (amount / coins[i]);
-            amount = amount % coins[i];
         }
-        return count;
+        return dp[amount] > amount ? -1 : dp[amount];
     }
 }

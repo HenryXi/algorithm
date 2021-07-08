@@ -53,6 +53,7 @@ Talk is cheap show me the code.
 | 67 | [Add Binary](http://www.henryxi.com/add-binary/)   |Easy|
 | 69 | [Sqrt(x)](http://www.henryxi.com/sqrtx/)   |Easy|
 | 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
+| 74 | [Search a 2D Matrix](http://www.henryxi.com/search-a-2d-matrix/)   |Medium|
 | 75 | [Sort Colors](http://www.henryxi.com/sort-colors/)   |Medium|
 | 78 | [Subsets](http://www.henryxi.com/subsets/)   |Medium|
 | 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|

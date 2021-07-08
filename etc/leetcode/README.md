@@ -93,6 +93,7 @@ Talk is cheap show me the code.
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
 | 283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
 | 300 | [Longest Increasing Subsequences](http://www.henryxi.com/longest-increasing-subsequence/)   |Medium|
+| 322 | [Coin Change](http://www.henryxi.com/coin-change/)   |Medium|
 | 328 | [Odd Even Linked List](http://www.henryxi.com/odd-even-linked-list)   |Medium|
 | 344 | [Reverse String](http://www.henryxi.com/reverse-string)   |Easy|
 | 430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
@@ -120,7 +121,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|322|
 |144|
 |167|
 |82|

@@ -2,7 +2,7 @@ package com.henryxi.algorithm.dp.coinchange;
 
 import java.util.Arrays;
 
-//todo not finish
+
 public class CoinChangeClient {
     public static void main(String[] args) {
         CoinChangeClient client = new CoinChangeClient();

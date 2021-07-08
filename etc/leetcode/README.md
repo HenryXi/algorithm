@@ -77,6 +77,7 @@ Talk is cheap show me the code.
 | 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|
 | 142 | [Linked List Cycle II](http://www.henryxi.com/linked-list-cycle-ii)   |Medium|
 | 143 | [Reorder List](http://www.henryxi.com/reorder-list)   |Medium|
+| 144 | [Binary Tree Preorder Traversal](http://www.henryxi.com/binary-tree-preorder-traversal/)   |Easy|
 | 147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
 | 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
@@ -121,7 +122,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|144|
 |167|
 |82|
 |31|

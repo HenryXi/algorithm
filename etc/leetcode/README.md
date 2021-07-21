@@ -125,7 +125,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|剑指 Offer 13|
 |63|
 |155|
 |392|

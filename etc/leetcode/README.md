@@ -83,6 +83,7 @@ Talk is cheap show me the code.
 | 144 | [Binary Tree Preorder Traversal](http://www.henryxi.com/binary-tree-preorder-traversal/)   |Easy|
 | 147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
 | 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
+| 155 | [Min Stack](http://www.henryxi.com/min-stack/)   |Easy|
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
 | 169 | [Majority Element](http://www.henryxi.com/majority-element/)   |Easy|
 | 198 | [House Robber](http://www.henryxi.com/house-robber/)   |Medium|
@@ -126,7 +127,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|155|
 |392|
 |103|
 |242|

@@ -72,6 +72,7 @@ Talk is cheap show me the code.
 | 104 | [Maximum Depth of Binary Tree](http://www.henryxi.com/maximum-depth-of-binary-tree/)   |Easy|
 | 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
 | 111 | [Minimum Depth of Binary Tree](http://www.henryxi.com/minimum-depth-of-binary-tree/)   |Medium|
+| 112 | [Path Sum](http://www.henryxi.com/path-sum/)   |Easy|
 | 118 | [Pascal's Triangle](http://www.henryxi.com/pascals-triangle/)   |Easy|
 | 121 | [Best Time to Buy and Sell Stock](http://www.henryxi.com/best-time-to-buy-and-sell-stock)   |Easy|
 | 122 | [Best Time to Buy and Sell Stock II](http://www.henryxi.com/best-time-to-buy-and-sell-stock-ii)   |Easy|
@@ -130,7 +131,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|112|
 |剑指 Offer 10- I|
 |59|
 |199|

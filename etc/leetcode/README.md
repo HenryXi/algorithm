@@ -97,6 +97,7 @@ Talk is cheap show me the code.
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)   |Medium|
 | 234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
+| 242 | [Valid Anagram](http://www.henryxi.com/valid-anagram/)   |Easy|
 | 283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
 | 300 | [Longest Increasing Subsequences](http://www.henryxi.com/longest-increasing-subsequence/)   |Medium|
 | 322 | [Coin Change](http://www.henryxi.com/coin-change/)   |Medium|
@@ -129,7 +130,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|242|
 |112|
 |剑指 Offer 10- I|
 |59|

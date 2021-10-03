@@ -87,6 +87,7 @@ Talk is cheap show me the code.
 | 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
 | 155 | [Min Stack](http://www.henryxi.com/min-stack/)   |Easy|
 | 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
+| 166 | [Fraction to Recurring Decimal](http://www.henryxi.com/fraction-to-recurring-decimal/)   |Medium|
 | 169 | [Majority Element](http://www.henryxi.com/majority-element/)   |Easy|
 | 198 | [House Robber](http://www.henryxi.com/house-robber/)   |Medium|
 | 200 | [Number of Islands](http://www.henryxi.com/number-of-islands/)   |Medium|
@@ -859,7 +860,6 @@ TODO list
 |1178|
 |1408|
 |1475|
-|166|
 |386|
 |面试题 16.15|
 |336|

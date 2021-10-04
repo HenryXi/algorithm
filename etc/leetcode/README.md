@@ -109,6 +109,7 @@ Talk is cheap show me the code.
 | 430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
 | 445 | [Add Two Numbers II](http://www.henryxi.com/add-two-numbers-ii)   |Medium|
 | 450 | [Delete Node in a BST](http://www.henryxi.com/delete-node-in-a-bst)   |Medium|
+| 482 | [License Key Formatting](http://www.henryxi.com/license-key-formatting/)   |Easy|
 | 707 | [Design Linked List](http://www.henryxi.com/design-linked-list)   |Medium|
 | 725 | [Split Linked List in Parts](http://www.henryxi.com/split-linked-list-in-parts)   |Medium|
 | 817 | [Linked List Components](http://www.henryxi.com/linked-list-components)   |Medium|
@@ -835,7 +836,6 @@ TODO list
 |1395|
 |1578|
 |1009|
-|482|
 |面试题 04.06|
 |1391|
 |面试题 04.01|

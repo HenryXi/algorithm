@@ -101,6 +101,7 @@ Talk is cheap show me the code.
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
 | 242 | [Valid Anagram](http://www.henryxi.com/valid-anagram/)   |Easy|
 | 283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
+| 284 | [Peeking Iterator](http://www.henryxi.com/peeking-iterator/)   |Medium|
 | 300 | [Longest Increasing Subsequences](http://www.henryxi.com/longest-increasing-subsequence/)   |Medium|
 | 322 | [Coin Change](http://www.henryxi.com/coin-change/)   |Medium|
 | 328 | [Odd Even Linked List](http://www.henryxi.com/odd-even-linked-list)   |Medium|
@@ -1378,7 +1379,6 @@ TODO list
 |1791|
 |1854|
 |1855|
-|284|
 |571|
 |754|
 |1311|

@@ -107,6 +107,7 @@ Talk is cheap show me the code.
 | 328 | [Odd Even Linked List](http://www.henryxi.com/odd-even-linked-list)   |Medium|
 | 344 | [Reverse String](http://www.henryxi.com/reverse-string)   |Easy|
 | 392 | [Is Subsequence](http://www.henryxi.com/is-subsequence/)   |Easy|
+| 414 | [Third Maximum Number](http://www.henryxi.com/third-maximum-number/)   |Easy|
 | 430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
 | 445 | [Add Two Numbers II](http://www.henryxi.com/add-two-numbers-ii)   |Medium|
 | 450 | [Delete Node in a BST](http://www.henryxi.com/delete-node-in-a-bst)   |Medium|
@@ -339,7 +340,6 @@ TODO list
 |1512|
 |剑指 Offer 51|
 |71|
-|414|
 |560|
 |628|
 |1470|

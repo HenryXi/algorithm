@@ -109,6 +109,7 @@ Talk is cheap show me the code.
 | 392 | [Is Subsequence](http://www.henryxi.com/is-subsequence/)   |Easy|
 | 414 | [Third Maximum Number](http://www.henryxi.com/third-maximum-number/)   |Easy|
 | 430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
+| 434 | [Number of Segments in a String](http://www.henryxi.com/number-of-segments-in-a-string)   |Easy|
 | 445 | [Add Two Numbers II](http://www.henryxi.com/add-two-numbers-ii)   |Medium|
 | 450 | [Delete Node in a BST](http://www.henryxi.com/delete-node-in-a-bst)   |Medium|
 | 482 | [License Key Formatting](http://www.henryxi.com/license-key-formatting/)   |Easy|
@@ -511,7 +512,6 @@ TODO list
 |97|
 |面试题 02.05|
 |面试题 04.03|
-|434|
 |682|
 |696|
 |1248|

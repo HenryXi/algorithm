@@ -77,6 +77,7 @@ Talk is cheap show me the code.
 | 121 | [Best Time to Buy and Sell Stock](http://www.henryxi.com/best-time-to-buy-and-sell-stock)   |Easy|
 | 122 | [Best Time to Buy and Sell Stock II](http://www.henryxi.com/best-time-to-buy-and-sell-stock-ii)   |Easy|
 | 125 | [Valid Palindrome](http://www.henryxi.com/valid-palindrome/)   |Easy|
+| 129 | [Sum Root to Leaf Numbers](http://www.henryxi.com/sum-root-to-leaf-numbers/)   |Medium|
 | 136 | [Single Number](http://www.henryxi.com/single-number)   |Easy|
 | 138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
 | 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|

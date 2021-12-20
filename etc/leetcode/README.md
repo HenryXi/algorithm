@@ -127,6 +127,7 @@ Talk is cheap show me the code.
 | Offer 04 | [Find Number In 2D Array](http://www.henryxi.com/find-number-in-2d-array/)   |Easy|
 | Offer 05 | [Replace Space](http://www.henryxi.com/replace-space/)   |Easy|
 | Offer 06 | [Reverse Print](http://www.henryxi.com/reverse-print/)   |Easy|
+| Offer 10-I | [Fib](http://www.henryxi.com/fib/)   |Easy|
 | Offer 13 | [Moving Count](http://www.henryxi.com/moving-count/)   |Medium|
 | Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
 | Offer 24 | [Reverse List](http://www.henryxi.com/reverse-list)   |Easy|

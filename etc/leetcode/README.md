@@ -100,6 +100,7 @@ Talk is cheap show me the code.
 | 234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
 | 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
 | 242 | [Valid Anagram](http://www.henryxi.com/valid-anagram/)   |Easy|
+| 257 | [Binary Tree Paths](http://www.henryxi.com/binary-tree-paths/)   |Easy|
 | 283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
 | 284 | [Peeking Iterator](http://www.henryxi.com/peeking-iterator/)   |Medium|
 | 300 | [Longest Increasing Subsequences](http://www.henryxi.com/longest-increasing-subsequence/)   |Medium|

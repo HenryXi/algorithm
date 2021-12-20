@@ -1,5 +1,5 @@
 # fib
-[fib](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
+[Problem Description](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
 
 ```
 public int fib(int n) {

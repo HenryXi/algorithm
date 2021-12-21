@@ -139,7 +139,6 @@ Talk is cheap show me the code.
 TODO list
 | No.       | 
 | -------------:|
-|剑指 Offer 10- I|
 |59|
 |199|
 |面试题 01.01|

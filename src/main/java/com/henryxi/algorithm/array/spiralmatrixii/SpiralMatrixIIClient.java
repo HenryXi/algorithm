@@ -28,23 +28,26 @@ public class SpiralMatrixIIClient {
 
     //todo 数组套用xy真傻比
     private int getNextY(int[][] matrix, int x, int y) {
-        if (y < matrix.length - 1) {
+        // 上面到边或者上面有数
+        if ((x == 0 || matrix[x - 1][y] != 0) && y < matrix.length - 1 && matrix[x][y + 1] == 0) {
             return y + 1;
         }
-        if (x < matrix.length - 1) {
-            return y;
+        //下面到边或者下面有数
+        if ((x == matrix.length - 1 || matrix[x + 1][y] != 0) && y >0 && matrix[x][y - 1] == 0) {
+            return y - 1;
         }
-        return ;
-
+        return y;
     }
 
     private int getNextX(int[][] matrix, int x, int y) {
-        if (y < matrix.length - 1) {
-            return x;
+        //左边到边或者左边有数
+        if ((y==0 || matrix[x][y-1]!=0) && y < matrix.length - 1  ) {
+            return x-1;
         }
+        //右边到边或者右边有数
         if (x <= matrix.length - 1) {
             return x + 1;
         }
-        return -1;
+        return x;
     }
 }

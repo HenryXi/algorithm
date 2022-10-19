@@ -1,137 +1,138 @@
 # leetcode
 Talk is cheap show me the code.
 
-| No.       | Problems     |Difficulty| 
-| -------------: | :---------- |--------:|
-| 1 | [Two Sum](http://www.henryxi.com/two-sum)   |Easy|
-| 2 | [Add Two Numbers](http://www.henryxi.com/add-two-numbers)   |Medium|
-| 3 | [Longest Substring Without Repeating Characters](http://www.henryxi.com/longest-substring-without-repeating-characters)   |Medium|
-| 4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
-| 5 | [Longest Palindromic Substring](http://www.henryxi.com/longest-palindromic-substring)   |Medium|
-| 6 | [ZigZag Conversion](http://www.henryxi.com/zigzag-conversion)   |Medium|
-| 7 | [Reverse Integer](http://www.henryxi.com/reverse-integer/)   |Easy|
-| 8 | [String to Integer (atoi)](http://www.henryxi.com/string-to-integer-atoi/)   |Medium|
-| 9 | [Palindrome Number](http://www.henryxi.com/palindrome-number/)   |Easy|
-| 11 | [Container With Most Water](http://www.henryxi.com/container-with-most-water)   |Medium|
-| 12 | [Integer to Roman](http://www.henryxi.com/integer-to-roman)   |Medium|
-| 13 | [Roman to Integer](http://www.henryxi.com/roman-to-integer)   |Easy|
-| 14 | [Longest Common Prefix](http://www.henryxi.com/longest-common-prefix/)   |Easy|
-| 15 | [3Sum](http://www.henryxi.com/3sum)   |Medium|
-| 16 | [3Sum Closest](http://www.henryxi.com/3sum-closest)   |Medium|
-| 17 | [Letter Combinations of a Phone Number](http://www.henryxi.com/letter-combinations-of-a-phone-number)   |Medium|
-| 18 | [4Sum](http://www.henryxi.com/4sum)   |Medium|
-| 19 | [Remove Nth Node From End of List](http://www.henryxi.com/remove-nth-node-from-end-of-list)   |Medium|
-| 20 | [Valid Parentheses](http://www.henryxi.com/valid-parentheses)   |Easy|
-| 21 | [Merge Two Sorted Lists](http://www.henryxi.com/merge-two-sorted-lists)   |Easy|
-| 22 | [Generate Parentheses](http://www.henryxi.com/generate-parentheses/)   |Medium|
-| 23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|
-| 24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
-| 25 | [Reverse Nodes in k-Group](http://www.henryxi.com/reverse-nodes-in-k-group)   |Hard|
-| 26 | [Remove Duplicates from Sorted Array](http://www.henryxi.com/remove-duplicates-from-sorted-array)   |Easy|
-| 27 | [Remove Element](http://www.henryxi.com/remove-element)   |Easy|
-| 28 | [Implement strStr()](http://www.henryxi.com/implement-strstr)   |Easy|
-| 31 | [Next Permutation](http://www.henryxi.com/next-permutation)   |Medium|
-| 33 | [Search in Rotated Sorted Array](http://www.henryxi.com/search-in-rotated-sorted-array)   |Medium|
-| 34 | [Find First and Last Position of Element in Sorted Array](http://www.henryxi.com/find-first-and-last-position-of-element-in-sorted-array)   |Medium|
-| 35 | [Search Insert Position](http://www.henryxi.com/search-insert-position)   |Easy|
-| 38 | [Count and Say](http://www.henryxi.com/count-and-say)   |Medium|
-| 39 | [Combination Sum](http://www.henryxi.com/combination-sum)   |Medium|
-| 40 | [Combination Sum II](http://www.henryxi.com/combination-sum-ii)   |Medium|
-| 41 | [First Missing Positive](http://www.henryxi.com/first-missing-positive)   |Hard|
-| 42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
-| 46 | [Permutations](http://www.henryxi.com/permutations/)   |Medium|
-| 48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
-| 53 | [Maximum Subarray](http://www.henryxi.com/maximum-subarray/)   |Easy|
-| 54 | [Spiral Matrix](http://www.henryxi.com/spiral-matrix/)   |Medium|
-| 55 | [Jump Game](http://www.henryxi.com/jump-game/)   |Medium|
-| 56 | [Merge Intervals](http://www.henryxi.com/merge-intervals/)   |Medium|
-| 58 | [Length of Last Word](http://www.henryxi.com/length-of-last-word/)   |Easy|
-| 61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
-| 62 | [Unique Paths](http://www.henryxi.com/unique-paths)   |Medium|
-| 63 | [Unique Paths II](http://www.henryxi.com/unique-paths-ii/)   |Medium|
-| 64 | [Minimum Path Sum](http://www.henryxi.com/minimum-path-sum/)   |Medium|
-| 66 | [Plus One](http://www.henryxi.com/plus-one/)   |Easy|
-| 67 | [Add Binary](http://www.henryxi.com/add-binary/)   |Easy|
-| 69 | [Sqrt(x)](http://www.henryxi.com/sqrtx/)   |Easy|
-| 70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
-| 74 | [Search a 2D Matrix](http://www.henryxi.com/search-a-2d-matrix/)   |Medium|
-| 75 | [Sort Colors](http://www.henryxi.com/sort-colors/)   |Medium|
-| 78 | [Subsets](http://www.henryxi.com/subsets/)   |Medium|
-| 82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
-| 83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
-| 86 | [Partition List](http://www.henryxi.com/partition-list)   |Medium|
-| 88 | [Merge Sorted Array](http://www.henryxi.com/merge-sorted-array)   |Easy|
-| 92 | [Reverse Linked List II](http://www.henryxi.com/reverse-linked-list-ii)   |Medium|
-| 94 | [Binary Tree Inorder Traversal](http://www.henryxi.com/binary-tree-inorder-traversal)   |Medium|
-| 96 | [Unique Binary Search Trees](http://www.henryxi.com/unique-binary-search-trees)   |Medium|
-| 98 | [Validate Binary Search Tree](http://www.henryxi.com/validate-binary-search-tree)   |Medium|
-| 100 | [Same Tree](http://www.henryxi.com/same-tree/)   |Easy|
-| 101 | [Symmetric Tree](http://www.henryxi.com/symmetric-tree)   |Easy|
-| 102 | [Binary Tree Level Order Traversal](http://www.henryxi.com/binary-tree-level-order-traversal)   |Medium|
-| 103 | [Binary Tree Zigzag Level Order Traversal](http://www.henryxi.com/binary-tree-zigzag-level-order-traversal/)   |Medium|
-| 104 | [Maximum Depth of Binary Tree](http://www.henryxi.com/maximum-depth-of-binary-tree/)   |Easy|
-| 109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
-| 111 | [Minimum Depth of Binary Tree](http://www.henryxi.com/minimum-depth-of-binary-tree/)   |Medium|
-| 112 | [Path Sum](http://www.henryxi.com/path-sum/)   |Easy|
-| 118 | [Pascal's Triangle](http://www.henryxi.com/pascals-triangle/)   |Easy|
-| 121 | [Best Time to Buy and Sell Stock](http://www.henryxi.com/best-time-to-buy-and-sell-stock)   |Easy|
-| 122 | [Best Time to Buy and Sell Stock II](http://www.henryxi.com/best-time-to-buy-and-sell-stock-ii)   |Easy|
-| 125 | [Valid Palindrome](http://www.henryxi.com/valid-palindrome/)   |Easy|
-| 129 | [Sum Root to Leaf Numbers](http://www.henryxi.com/sum-root-to-leaf-numbers/)   |Medium|
-| 136 | [Single Number](http://www.henryxi.com/single-number)   |Easy|
-| 138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
-| 141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|
-| 142 | [Linked List Cycle II](http://www.henryxi.com/linked-list-cycle-ii)   |Medium|
-| 143 | [Reorder List](http://www.henryxi.com/reorder-list)   |Medium|
-| 144 | [Binary Tree Preorder Traversal](http://www.henryxi.com/binary-tree-preorder-traversal/)   |Easy|
-| 147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
-| 148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
-| 155 | [Min Stack](http://www.henryxi.com/min-stack/)   |Easy|
-| 160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
-| 166 | [Fraction to Recurring Decimal](http://www.henryxi.com/fraction-to-recurring-decimal/)   |Medium|
-| 169 | [Majority Element](http://www.henryxi.com/majority-element/)   |Easy|
-| 198 | [House Robber](http://www.henryxi.com/house-robber/)   |Medium|
-| 200 | [Number of Islands](http://www.henryxi.com/number-of-islands/)   |Medium|
-| 203 | [Remove Linked List Elements](http://www.henryxi.com/remove-linked-list-elements)   |Easy|
-| 206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|
-| 215 | [Kth Largest Element in an Array](http://www.henryxi.com/kth-largest-element-in-an-array)   |Medium|
-| 225 | [Implement Stack using Queues](http://www.henryxi.com/implement-stack-using-queues)   |Easy|
-| 226 | [Invert Binary Tree](http://www.henryxi.com/invert-binary-tree/)   |Easy|
-| 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)   |Medium|
-| 234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
-| 237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
-| 242 | [Valid Anagram](http://www.henryxi.com/valid-anagram/)   |Easy|
-| 257 | [Binary Tree Paths](http://www.henryxi.com/binary-tree-paths/)   |Easy|
-| 283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
-| 284 | [Peeking Iterator](http://www.henryxi.com/peeking-iterator/)   |Medium|
-| 300 | [Longest Increasing Subsequences](http://www.henryxi.com/longest-increasing-subsequence/)   |Medium|
-| 322 | [Coin Change](http://www.henryxi.com/coin-change/)   |Medium|
-| 328 | [Odd Even Linked List](http://www.henryxi.com/odd-even-linked-list)   |Medium|
-| 344 | [Reverse String](http://www.henryxi.com/reverse-string)   |Easy|
-| 392 | [Is Subsequence](http://www.henryxi.com/is-subsequence/)   |Easy|
-| 414 | [Third Maximum Number](http://www.henryxi.com/third-maximum-number/)   |Easy|
-| 430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
-| 434 | [Number of Segments in a String](http://www.henryxi.com/number-of-segments-in-a-string)   |Easy|
-| 445 | [Add Two Numbers II](http://www.henryxi.com/add-two-numbers-ii)   |Medium|
-| 450 | [Delete Node in a BST](http://www.henryxi.com/delete-node-in-a-bst)   |Medium|
-| 482 | [License Key Formatting](http://www.henryxi.com/license-key-formatting/)   |Easy|
-| 707 | [Design Linked List](http://www.henryxi.com/design-linked-list)   |Medium|
-| 725 | [Split Linked List in Parts](http://www.henryxi.com/split-linked-list-in-parts)   |Medium|
-| 817 | [Linked List Components](http://www.henryxi.com/linked-list-components)   |Medium|
-| 876 | [Middle of the Linked List](http://www.henryxi.com/middle-of-the-linked-list)   |Easy|
-| 1019 | [Next Greater Node In Linked List](http://www.henryxi.com/next-greater-node-in-linked-list)   |Medium|
-| 1171 | [Remove Zero Sum Consecutive Nodes from Linked List](http://www.henryxi.com/remove-zero-sum-consecutive-nodes-from-linked-list)   |Medium|
-| 1290 | [Convert Binary Number in a Linked List to Integer](http://www.henryxi.com/convert-binary-number-in-a-linked-list-to-integer)   |Easy|
-| 1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
-| Offer 03 | [Find Repeat Number](http://www.henryxi/find-repeat-number/)   |Easy|
-| Offer 04 | [Find Number In 2D Array](http://www.henryxi.com/find-number-in-2d-array/)   |Easy|
-| Offer 05 | [Replace Space](http://www.henryxi.com/replace-space/)   |Easy|
-| Offer 06 | [Reverse Print](http://www.henryxi.com/reverse-print/)   |Easy|
-| Offer 10-I | [Fib](http://www.henryxi.com/fib/)   |Easy|
-| Offer 13 | [Moving Count](http://www.henryxi.com/moving-count/)   |Medium|
-| Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
-| Offer 24 | [Reverse List](http://www.henryxi.com/reverse-list)   |Easy|
-| Offer 40 | [Get Least Numbers](http://www.henryxi.com/get-least-numbers)   |Easy|
+|         No. | Problems     |Difficulty| 
+|------------:| :---------- |--------:|
+|           1 | [Two Sum](http://www.henryxi.com/two-sum)   |Easy|
+|           2 | [Add Two Numbers](http://www.henryxi.com/add-two-numbers)   |Medium|
+|           3 | [Longest Substring Without Repeating Characters](http://www.henryxi.com/longest-substring-without-repeating-characters)   |Medium|
+|           4 | [Median of Two Sorted Arrays](http://www.henryxi.com/median-of-two-sorted-arrays)   |Hard|
+|           5 | [Longest Palindromic Substring](http://www.henryxi.com/longest-palindromic-substring)   |Medium|
+|           6 | [ZigZag Conversion](http://www.henryxi.com/zigzag-conversion)   |Medium|
+|           7 | [Reverse Integer](http://www.henryxi.com/reverse-integer/)   |Easy|
+|           8 | [String to Integer (atoi)](http://www.henryxi.com/string-to-integer-atoi/)   |Medium|
+|           9 | [Palindrome Number](http://www.henryxi.com/palindrome-number/)   |Easy|
+|          11 | [Container With Most Water](http://www.henryxi.com/container-with-most-water)   |Medium|
+|          12 | [Integer to Roman](http://www.henryxi.com/integer-to-roman)   |Medium|
+|          13 | [Roman to Integer](http://www.henryxi.com/roman-to-integer)   |Easy|
+|          14 | [Longest Common Prefix](http://www.henryxi.com/longest-common-prefix/)   |Easy|
+|          15 | [3Sum](http://www.henryxi.com/3sum)   |Medium|
+|          16 | [3Sum Closest](http://www.henryxi.com/3sum-closest)   |Medium|
+|          17 | [Letter Combinations of a Phone Number](http://www.henryxi.com/letter-combinations-of-a-phone-number)   |Medium|
+|          18 | [4Sum](http://www.henryxi.com/4sum)   |Medium|
+|          19 | [Remove Nth Node From End of List](http://www.henryxi.com/remove-nth-node-from-end-of-list)   |Medium|
+|          20 | [Valid Parentheses](http://www.henryxi.com/valid-parentheses)   |Easy|
+|          21 | [Merge Two Sorted Lists](http://www.henryxi.com/merge-two-sorted-lists)   |Easy|
+|          22 | [Generate Parentheses](http://www.henryxi.com/generate-parentheses/)   |Medium|
+|          23 | [Merge k Sorted Lists](http://www.henryxi.com/merge-k-sorted-lists)   |Hard|
+|          24 | [Swap Nodes in Pairs](http://www.henryxi.com/swap-nodes-in-pairs)   |Medium|
+|          25 | [Reverse Nodes in k-Group](http://www.henryxi.com/reverse-nodes-in-k-group)   |Hard|
+|          26 | [Remove Duplicates from Sorted Array](http://www.henryxi.com/remove-duplicates-from-sorted-array)   |Easy|
+|          27 | [Remove Element](http://www.henryxi.com/remove-element)   |Easy|
+|          28 | [Implement strStr()](http://www.henryxi.com/implement-strstr)   |Easy|
+|          31 | [Next Permutation](http://www.henryxi.com/next-permutation)   |Medium|
+|          33 | [Search in Rotated Sorted Array](http://www.henryxi.com/search-in-rotated-sorted-array)   |Medium|
+|          34 | [Find First and Last Position of Element in Sorted Array](http://www.henryxi.com/find-first-and-last-position-of-element-in-sorted-array)   |Medium|
+|          35 | [Search Insert Position](http://www.henryxi.com/search-insert-position)   |Easy|
+|          38 | [Count and Say](http://www.henryxi.com/count-and-say)   |Medium|
+|          39 | [Combination Sum](http://www.henryxi.com/combination-sum)   |Medium|
+|          40 | [Combination Sum II](http://www.henryxi.com/combination-sum-ii)   |Medium|
+|          41 | [First Missing Positive](http://www.henryxi.com/first-missing-positive)   |Hard|
+|          42 | [Trapping Rain Water](http://www.henryxi.com/trapping-rain-water)   |Hard|
+|          46 | [Permutations](http://www.henryxi.com/permutations/)   |Medium|
+|          48 | [Rotate Image](http://www.henryxi.com/rotate-image)   |Medium|
+|          53 | [Maximum Subarray](http://www.henryxi.com/maximum-subarray/)   |Easy|
+|          54 | [Spiral Matrix](http://www.henryxi.com/spiral-matrix/)   |Medium|
+|          55 | [Jump Game](http://www.henryxi.com/jump-game/)   |Medium|
+|          56 | [Merge Intervals](http://www.henryxi.com/merge-intervals/)   |Medium|
+|          58 | [Length of Last Word](http://www.henryxi.com/length-of-last-word/)   |Easy|
+|          61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
+|          62 | [Unique Paths](http://www.henryxi.com/unique-paths)   |Medium|
+|          63 | [Unique Paths II](http://www.henryxi.com/unique-paths-ii/)   |Medium|
+|          64 | [Minimum Path Sum](http://www.henryxi.com/minimum-path-sum/)   |Medium|
+|          66 | [Plus One](http://www.henryxi.com/plus-one/)   |Easy|
+|          67 | [Add Binary](http://www.henryxi.com/add-binary/)   |Easy|
+|          69 | [Sqrt(x)](http://www.henryxi.com/sqrtx/)   |Easy|
+|          70 | [Climbing Stairs](http://www.henryxi.com/climbing-stairs/)   |Easy|
+|          74 | [Search a 2D Matrix](http://www.henryxi.com/search-a-2d-matrix/)   |Medium|
+|          75 | [Sort Colors](http://www.henryxi.com/sort-colors/)   |Medium|
+|          78 | [Subsets](http://www.henryxi.com/subsets/)   |Medium|
+|          82 | [Remove Duplicates from Sorted List II](http://www.henryxi.com/remove-duplicates-from-sorted-list-ii)   |Medium|
+|          83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
+|          86 | [Partition List](http://www.henryxi.com/partition-list)   |Medium|
+|          88 | [Merge Sorted Array](http://www.henryxi.com/merge-sorted-array)   |Easy|
+|          92 | [Reverse Linked List II](http://www.henryxi.com/reverse-linked-list-ii)   |Medium|
+|          94 | [Binary Tree Inorder Traversal](http://www.henryxi.com/binary-tree-inorder-traversal)   |Medium|
+|          96 | [Unique Binary Search Trees](http://www.henryxi.com/unique-binary-search-trees)   |Medium|
+|          98 | [Validate Binary Search Tree](http://www.henryxi.com/validate-binary-search-tree)   |Medium|
+|         100 | [Same Tree](http://www.henryxi.com/same-tree/)   |Easy|
+|         101 | [Symmetric Tree](http://www.henryxi.com/symmetric-tree)   |Easy|
+|         102 | [Binary Tree Level Order Traversal](http://www.henryxi.com/binary-tree-level-order-traversal)   |Medium|
+|         103 | [Binary Tree Zigzag Level Order Traversal](http://www.henryxi.com/binary-tree-zigzag-level-order-traversal/)   |Medium|
+|         104 | [Maximum Depth of Binary Tree](http://www.henryxi.com/maximum-depth-of-binary-tree/)   |Easy|
+|         109 | [Convert Sorted List to Binary Search Tree](http://www.henryxi.com/convert-sorted-list-to-binary-search-tree)   |Medium|
+|         111 | [Minimum Depth of Binary Tree](http://www.henryxi.com/minimum-depth-of-binary-tree/)   |Medium|
+|         112 | [Path Sum](http://www.henryxi.com/path-sum/)   |Easy|
+|         114 | [Flatten Binary Tree to Linked List](http://www.henryxi.com/flatten-binary-tree-to-linked-list/)   |Medium|
+|         118 | [Pascal's Triangle](http://www.henryxi.com/pascals-triangle/)   |Easy|
+|         121 | [Best Time to Buy and Sell Stock](http://www.henryxi.com/best-time-to-buy-and-sell-stock)   |Easy|
+|         122 | [Best Time to Buy and Sell Stock II](http://www.henryxi.com/best-time-to-buy-and-sell-stock-ii)   |Easy|
+|         125 | [Valid Palindrome](http://www.henryxi.com/valid-palindrome/)   |Easy|
+|         129 | [Sum Root to Leaf Numbers](http://www.henryxi.com/sum-root-to-leaf-numbers/)   |Medium|
+|         136 | [Single Number](http://www.henryxi.com/single-number)   |Easy|
+|         138 | [Copy List with Random Pointer](http://www.henryxi.com/copy-list-with-random-pointer)   |Medium|
+|         141 | [Linked List Cycle](http://www.henryxi.com/linked-list-cycle)   |Easy|
+|         142 | [Linked List Cycle II](http://www.henryxi.com/linked-list-cycle-ii)   |Medium|
+|         143 | [Reorder List](http://www.henryxi.com/reorder-list)   |Medium|
+|         144 | [Binary Tree Preorder Traversal](http://www.henryxi.com/binary-tree-preorder-traversal/)   |Easy|
+|         147 | [Insertion Sort List](http://www.henryxi.com/insertion-sort-list)   |Medium|
+|         148 | [Sort List](http://www.henryxi.com/sort-list)   |Medium|
+|         155 | [Min Stack](http://www.henryxi.com/min-stack/)   |Easy|
+|         160 | [Intersection of Two Linked Lists](http://www.henryxi.com/intersection-of-two-linked-lists)   |Easy|
+|         166 | [Fraction to Recurring Decimal](http://www.henryxi.com/fraction-to-recurring-decimal/)   |Medium|
+|         169 | [Majority Element](http://www.henryxi.com/majority-element/)   |Easy|
+|         198 | [House Robber](http://www.henryxi.com/house-robber/)   |Medium|
+|         200 | [Number of Islands](http://www.henryxi.com/number-of-islands/)   |Medium|
+|         203 | [Remove Linked List Elements](http://www.henryxi.com/remove-linked-list-elements)   |Easy|
+|         206 | [Reverse Linked List](http://www.henryxi.com/reverse-linked-list)   |Easy|
+|         215 | [Kth Largest Element in an Array](http://www.henryxi.com/kth-largest-element-in-an-array)   |Medium|
+|         225 | [Implement Stack using Queues](http://www.henryxi.com/implement-stack-using-queues)   |Easy|
+|         226 | [Invert Binary Tree](http://www.henryxi.com/invert-binary-tree/)   |Easy|
+|         230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)   |Medium|
+|         234 | [Palindrome Linked List](http://www.henryxi.com/palindrome-linked-list)   |Easy|
+|         237 | [Delete Node in a Linked List](http://www.henryxi.com/delete-node-in-a-linked-list)   |Easy|
+|         242 | [Valid Anagram](http://www.henryxi.com/valid-anagram/)   |Easy|
+|         257 | [Binary Tree Paths](http://www.henryxi.com/binary-tree-paths/)   |Easy|
+|         283 | [Move Zeroes](http://www.henryxi.com/move-zeroes)   |Easy|
+|         284 | [Peeking Iterator](http://www.henryxi.com/peeking-iterator/)   |Medium|
+|         300 | [Longest Increasing Subsequences](http://www.henryxi.com/longest-increasing-subsequence/)   |Medium|
+|         322 | [Coin Change](http://www.henryxi.com/coin-change/)   |Medium|
+|         328 | [Odd Even Linked List](http://www.henryxi.com/odd-even-linked-list)   |Medium|
+|         344 | [Reverse String](http://www.henryxi.com/reverse-string)   |Easy|
+|         392 | [Is Subsequence](http://www.henryxi.com/is-subsequence/)   |Easy|
+|         414 | [Third Maximum Number](http://www.henryxi.com/third-maximum-number/)   |Easy|
+|         430 | [Flatten a Multilevel Doubly Linked List](http://www.henryxi.com/flatten-a-multilevel-doubly-linked-list)   |Medium|
+|         434 | [Number of Segments in a String](http://www.henryxi.com/number-of-segments-in-a-string)   |Easy|
+|         445 | [Add Two Numbers II](http://www.henryxi.com/add-two-numbers-ii)   |Medium|
+|         450 | [Delete Node in a BST](http://www.henryxi.com/delete-node-in-a-bst)   |Medium|
+|         482 | [License Key Formatting](http://www.henryxi.com/license-key-formatting/)   |Easy|
+|         707 | [Design Linked List](http://www.henryxi.com/design-linked-list)   |Medium|
+|         725 | [Split Linked List in Parts](http://www.henryxi.com/split-linked-list-in-parts)   |Medium|
+|         817 | [Linked List Components](http://www.henryxi.com/linked-list-components)   |Medium|
+|         876 | [Middle of the Linked List](http://www.henryxi.com/middle-of-the-linked-list)   |Easy|
+|        1019 | [Next Greater Node In Linked List](http://www.henryxi.com/next-greater-node-in-linked-list)   |Medium|
+|        1171 | [Remove Zero Sum Consecutive Nodes from Linked List](http://www.henryxi.com/remove-zero-sum-consecutive-nodes-from-linked-list)   |Medium|
+|        1290 | [Convert Binary Number in a Linked List to Integer](http://www.henryxi.com/convert-binary-number-in-a-linked-list-to-integer)   |Easy|
+|        1367 | [Linked List in Binary Tree](http://www.henryxi.com/linked-list-in-binary-tree)   |Medium|
+|    Offer 03 | [Find Repeat Number](http://www.henryxi/find-repeat-number/)   |Easy|
+|    Offer 04 | [Find Number In 2D Array](http://www.henryxi.com/find-number-in-2d-array/)   |Easy|
+|    Offer 05 | [Replace Space](http://www.henryxi.com/replace-space/)   |Easy|
+|    Offer 06 | [Reverse Print](http://www.henryxi.com/reverse-print/)   |Easy|
+|  Offer 10-I | [Fib](http://www.henryxi.com/fib/)   |Easy|
+|    Offer 13 | [Moving Count](http://www.henryxi.com/moving-count/)   |Medium|
+|    Offer 22 | [Get Kth From End](http://www.henryxi.com/get-kth-from-end)   |Easy|
+|    Offer 24 | [Reverse List](http://www.henryxi.com/reverse-list)   |Easy|
+|    Offer 40 | [Get Least Numbers](http://www.henryxi.com/get-least-numbers)   |Easy|
 | Offer 57-II | [Find Continuous Sequence](http://www.henryxi.com/find-continuous-sequence)   |Easy|
 | Offer 58-II | [Reverse Left Words](http://www.henryxi.com/reverse-left-words)   |Easy|
 

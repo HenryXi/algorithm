@@ -10,15 +10,14 @@ public class MoveZeroesClient {
     }
 
     public static void moveZeroes(int[] nums) {
-        int newIndex = 0;
-        for (int i = 0; i <= nums.length - 1; i++) {
+        int index = 0;
+        for (int i = 0; i < nums.length; i++) {
             if (nums[i] != 0) {
-                nums[newIndex++] = nums[i];
+                nums[index++] = nums[i];
             }
         }
-        while (newIndex < nums.length) {
-            nums[newIndex] = 0;
-            newIndex++;
+        for (int i = index; i < nums.length; i++) {
+            nums[i] = 0;
         }
     }
 }

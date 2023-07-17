@@ -1,18 +1,18 @@
 package com.henryxi.algorithm.array.removeduplicatesfromsortedarray;
 
-public class RemoveDuplicatesFromSortedArrayClient {
+public class RemoveDuplicatesFromSortedArrayClientII {
     public static void main(String[] args) {
-        int[] nums = new int[]{0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
+        int[] nums = new int[]{1, 1, 1, 2, 2, 3};
         System.out.println(removeDuplicates(nums));
     }
 
     public static int removeDuplicates(int[] nums) {
-        if (nums.length == 0) {
-            return 0;
+        if (nums.length <= 2) {
+            return nums.length;
         }
-        int newArrIndex = 1;
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i] != nums[newArrIndex - 1]) {
+        int newArrIndex = 2;
+        for (int i = 2; i < nums.length; i++) {
+            if (nums[i] != nums[newArrIndex - 2]) {
                 nums[newArrIndex] = nums[i];
                 newArrIndex++;
             }

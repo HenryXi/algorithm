@@ -1,6 +1,8 @@
 package com.henryxi.algorithm.array.twosum;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class TwoSumClient {
 
@@ -12,16 +14,16 @@ public class TwoSumClient {
     }
 
     public static int[] twoSum(int[] nums, int target) {
-        int[] res = new int[2];
+        Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
-            for (int j = i + 1; j < nums.length; j++) {
-                if (nums[i] + nums[j] == target) {
-                    res[0] = i;
-                    res[1] = j;
-                    return res;
-                }
+            map.put(nums[i], i);
+        }
+        for (int i = 0; i < nums.length; i++) {
+            Integer otherIndex = map.get(target - nums[i]);
+            if (otherIndex != null && otherIndex > i) {
+                return new int[]{i + 1, otherIndex + 1};
             }
         }
-        return res;
+        return null;
     }
 }

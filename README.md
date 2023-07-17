@@ -11,4 +11,3 @@ This series of blog describes common algorithms.
 * [Java reverse stack using recursion](http://www.henryxi.com/java-reverse-stack-using-recursion)
 * [Java sort stack using temporary stack](http://www.henryxi.com/java-sort-stack-using-temporary-stack)
 * [Red packet algorithm](http://www.henryxi.com/red-packet-algorithm)
-* [leetcode](etc/leetcode/README.md)

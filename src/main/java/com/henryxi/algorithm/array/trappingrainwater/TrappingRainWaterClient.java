@@ -7,6 +7,12 @@ public class TrappingRainWaterClient {
         System.out.println(trap(array));
     }
 
+    /**
+     * 这个的思路是将所有的区块划分成海，陆，空三个区域，然后从左往右遍历一次，再从由往左一次，在遍历的过程中
+     * 减去陆地的值，这样区域的总面积就是2份的水，1份陆地和1份天空。
+     * 最后用总区域面积减去矩形面积就是一份水的面积
+     *
+     */
     public static int trap(int[] height) {
         int h1 = 0;
         int h2 = 0;

@@ -1,6 +1,31 @@
 # Subsets
 [Problem Description](https://leetcode.com/problems/subsets/)
 
+Method 1
+```
+public List<List<Integer>> subsets2(int[] nums){
+    List<List<Integer>> res = new ArrayList<>();
+    for (int i = 0; i < Math.pow(2, nums.length); i++) {
+        ArrayList<Integer> subSet = new ArrayList<>();
+        int index = i;
+        for (int j = 0; j < nums.length; j++) {
+            if ((index & 1) == 1) {
+                subSet.add(nums[j]);
+            }
+            index >>= 1;
+        }
+        res.add(subSet);
+    }
+    return res;
+}
+```
+
+| Runtime | Memory   | 
+|:--------|:---------|
+| 0 ms    | 40.8 MB	 |
+
+
+Method 2
 ```
 public List<List<Integer>> subsets(int[] nums) {
      List<List<Integer>> res = new LinkedList<>();

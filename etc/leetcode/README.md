@@ -61,6 +61,7 @@ Talk is cheap show me the code.
 |          83 | [Remove Duplicates from Sorted List](http://www.henryxi.com/remove-duplicates-from-sorted-list)   |Easy|
 |          86 | [Partition List](http://www.henryxi.com/partition-list)   |Medium|
 |          88 | [Merge Sorted Array](http://www.henryxi.com/merge-sorted-array)   |Easy|
+|          93 | [Restore IP Addresses](http://www.henryxi.com/restore-ip-addresses)   |Medium|
 |          92 | [Reverse Linked List II](http://www.henryxi.com/reverse-linked-list-ii)   |Medium|
 |          94 | [Binary Tree Inorder Traversal](http://www.henryxi.com/binary-tree-inorder-traversal)   |Medium|
 |          96 | [Unique Binary Search Trees](http://www.henryxi.com/unique-binary-search-trees)   |Medium|

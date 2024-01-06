@@ -46,6 +46,7 @@ Talk is cheap show me the code.
 |          55 | [Jump Game](http://www.henryxi.com/jump-game/)   |Medium|
 |          56 | [Merge Intervals](http://www.henryxi.com/merge-intervals/)   |Medium|
 |          58 | [Length of Last Word](http://www.henryxi.com/length-of-last-word/)   |Easy|
+|          59 | [Spiral Matrix II](http://www.henryxi.com/spiral-matrix-ii/)   |Medium|
 |          61 | [Rotate List](http://www.henryxi.com/rotate-list)   |Medium|
 |          62 | [Unique Paths](http://www.henryxi.com/unique-paths)   |Medium|
 |          63 | [Unique Paths II](http://www.henryxi.com/unique-paths-ii/)   |Medium|
